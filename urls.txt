@@ -1,0 +1,5 @@
+https://pds.nasa.gov/datastandards/dictionaries/index-1.18.0.0.shtml
+https://pds.nasa.gov/datastandards/dictionaries/index-1.17.0.0.shtml
+https://pds.nasa.gov/datastandards/dictionaries/index-1.16.0.0.shtml
+https://pds.nasa.gov/datastandards/dictionaries/index-1.15.0.0.shtml
+https://pds.nasa.gov/datastandards/dictionaries/index-pre-1.15.0.0.shtml
