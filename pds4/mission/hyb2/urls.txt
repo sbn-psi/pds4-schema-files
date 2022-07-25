@@ -1,0 +1,6 @@
+https://data.darts.isas.jaxa.jp/pub/pds4/mission/hyb2/v1/PDS4_HYB2_1E00_1000.sch
+https://data.darts.isas.jaxa.jp/pub/pds4/mission/hyb2/v1/PDS4_HYB2_1E00_1000.xml
+https://data.darts.isas.jaxa.jp/pub/pds4/mission/hyb2/v1/PDS4_HYB2_1E00_1000.xsd
+https://data.darts.isas.jaxa.jp/pub/pds4/mission/hyb2/v1/PDS4_HYB2_1E00_1100.sch
+https://data.darts.isas.jaxa.jp/pub/pds4/mission/hyb2/v1/PDS4_HYB2_1E00_1100.xml
+https://data.darts.isas.jaxa.jp/pub/pds4/mission/hyb2/v1/PDS4_HYB2_1E00_1100.xsd
