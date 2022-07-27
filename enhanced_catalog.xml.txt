@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog
+   PUBLIC "-//OASIS/DTD Entity Resolution XML Catalog V1.0//EN"
+   "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <system systemId="pds" uri="https://pds.nasa.gov/pds4/pds/v1" />
+
+    <rewriteURI uriStartString="https://pds.nasa.gov/pds4/orex/v1/orex_ldd_" rewritePrefix="https://pds.nasa.gov/pds4/mission/orex/v1/orex_ldd_" />
+    <rewriteURI uriStartString="https://pds.nasa.gov/pds4/mission/orex/v1/PDS4_" rewritePrefix="https://pds.nasa.gov/pds4/mission/orex/v1/orex_ldd_" />
+    
+    <group xml:base="file://${BASEDIR}/">
+        <rewriteURI uriStartString="https://pds.nasa.gov/pds4/" rewritePrefix="pds4/" />
+        <rewriteURI uriStartString="http://pds.nasa.gov/pds4/" rewritePrefix="pds4/" />
+        <rewriteURI uriStartString="https://data.darts.isas.jaxa.jp/pub/pds4/" rewritePrefix="pds4/" />        
+    </group>
+
+    <rewriteURI uriStartString="https://" rewritePrefix="https://" />
+    <rewriteURI uriStartString="http://" rewritePrefix="https://" />
+</catalog>
