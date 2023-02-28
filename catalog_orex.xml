@@ -1,0 +1,15 @@
+<!DOCTYPE catalog
+   PUBLIC "-//OASIS/DTD Entity Resolution XML Catalog V1.0//EN"
+   "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group xml:base="mission/orex/v1/">
+    <rewriteURI uriStartString="https://pds.nasa.gov/pds4/mission/orex/v1/PDS4_OREX" rewritePrefix="orex_ldd_OREX" />
+    <uri name="https://pds.nasa.gov/pds4/orex/v1/orex_ldd_OREX_1200.sch" uri="orex_ldd_OREX_1200.sch"/>
+    <uri name="https://pds.nasa.gov/pds4/mission/orex/v1/PDS4_OREX_1000.xsd" uri="orex_ldd_OREX_1000.xsd"/>	
+    <uri name="https://pds.nasa.gov/pds4/orex/v1/orex_ldd_OREX_1000.sch" uri="orex_ldd_OREX_1000.sch"/>
+    </group>
+
+    <uri name="https://pds.nasa.gov/pds4/sp/v1/PDS4_SP_1700_1100.sch.xsd" uri="sp/v1/PDS4_SP_1700_1100.xsd"/>
+
+    <nextCatalog catalog="catalog_all.xml" />
+</catalog>
