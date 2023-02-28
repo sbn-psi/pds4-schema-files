@@ -4,6 +4,6 @@
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <!-- main PDS namespace -->
     <system systemId="pds" uri="https://pds.nasa.gov/pds4/pds/v1/" />
-    <rewriteURI uriStartString="http://pds.nasa.gov/pds4/" rewritePrefix="." />
-    <rewriteURI uriStartString="https://pds.nasa.gov/pds4/" rewritePrefix="." />
+    <rewriteURI uriStartString="http://pds.nasa.gov/pds4/" rewritePrefix="pds4/" />
+    <rewriteURI uriStartString="https://pds.nasa.gov/pds4/" rewritePrefix="pds4/" />
 </catalog>
