@@ -3,11 +3,11 @@
 <head>
 	<!-- InstanceBeginEditable name="doctitle" --><title>PDS: Data Dictionaries - 1.18.0.0</title><!-- InstanceEndEditable -->
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<link href="/css/main.css?v=20220713" type="text/css" rel="stylesheet" media="all" />
+<link href="/css/main.css?v=20221014" type="text/css" rel="stylesheet" media="all" />
 <script src="/scripts/email.js" type="text/javascript"></script>
 <script src="/js/popWindow.js" type="text/javascript"></script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 <script src='https://www.google.com/recaptcha/api.js?onload=onloadCallback&amp;render=explicit' async defer></script>
 <link rel="stylesheet" href="/feedback/css/feedback.css"  type="text/css" media="screen" />
 <script src="/feedback/js/modernizr-custom.js"></script>
@@ -481,11 +481,11 @@ $(fixEmail);
                     <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-multi">https://github.com/pds-data-dictionaries/ldd-multi</a></li>
                     <li><b>Data Dictionary Files:</b>
                         <ul>
-                            <li><a href="/pds4/multi/v1/PDS4_MULTI_1I00_2000.xsd">PDS4_MULTI_1I00_2000.xsd</a></li>
-                            <li><a href="/pds4/multi/v1/PDS4_MULTI_1I00_2000.sch">PDS4_MULTI_1I00_2000.sch</a></li>
-                            <li><a href="/pds4/multi/v1/PDS4_MULTI_1I00_2000.xml">PDS4_MULTI_1I00_2000.xml</a></li>
-                            <li><a href="/pds4/multi/v1/PDS4_MULTI_1I00_2000.JSON">PDS4_MULTI_1I00_2000.JSON</a></li>
-                            <li><a href="/pds4/multi/v1/PDS4_MULTI_1I00_2000.zip">PDS4_MULTI_1I00_2000.zip</a></li>
+                            <li><a href="/pds4/multi/v2/PDS4_MULTI_1I00_2000.xsd">PDS4_MULTI_1I00_2000.xsd</a></li>
+                            <li><a href="/pds4/multi/v2/PDS4_MULTI_1I00_2000.sch">PDS4_MULTI_1I00_2000.sch</a></li>
+                            <li><a href="/pds4/multi/v2/PDS4_MULTI_1I00_2000.xml">PDS4_MULTI_1I00_2000.xml</a></li>
+                            <li><a href="/pds4/multi/v2/PDS4_MULTI_1I00_2000.JSON">PDS4_MULTI_1I00_2000.JSON</a></li>
+                            <li><a href="/pds4/multi/v2/PDS4_MULTI_1I00_2000.zip">PDS4_MULTI_1I00_2000.zip</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -611,9 +611,21 @@ $(fixEmail);
                 <h4>Spectral Library (speclib)</h4>
                 <p>
                     The Spectral Library Data Dictionary defines the metadata terms that describe laboratory spectral measurements, including classification of the samples measured.
-
                 </p>
                 <ul>
+                    <li><b>Last Updated:</b> 08/05/2022</li>
+                    <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
+                    <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-speclib">https://github.com/pds-data-dictionaries/ldd-speclib</a></li>
+                    <li><b>Data Dictionary Files:</b>
+                        <ul>
+                            <li><a href="/pds4/speclib/v1/PDS4_SPECLIB_1I00_1400.xsd">PDS4_SPECLIB_1I00_1400.xsd</a></li>
+                            <li><a href="/pds4/speclib/v1/PDS4_SPECLIB_1I00_1400.sch">PDS4_SPECLIB_1I00_1400.sch</a></li>
+                            <li><a href="/pds4/speclib/v1/PDS4_SPECLIB_1I00_1400.xml">PDS4_SPECLIB_1I00_1400.xml</a></li>
+                            <li><a href="/pds4/speclib/v1/PDS4_SPECLIB_1I00_1400.JSON">PDS4_SPECLIB_1I00_1400.JSON</a></li>
+                            <li><a href="/pds4/speclib/v1/PDS4_SPECLIB_1I00_1400.zip">PDS4_SPECLIB_1I00_1400.zip</a></li>
+                        </ul>
+                    </li>
+                    <br/>
                     <li><b>Last Updated:</b> 06/02/2022</li>
                     <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
                     <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-speclib">https://github.com/pds-data-dictionaries/ldd-speclib</a></li>
