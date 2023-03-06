@@ -4,14 +4,14 @@
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group xml:base="pds4/mission/orex/v1/">
         <rewriteURI uriStartString="https://pds.nasa.gov/pds4/mission/orex/v1/PDS4_OREX" rewritePrefix="orex_ldd_OREX" />
-        <uri name="https://pds.nasa.gov/pds4/orex/v1/orex_ldd_OREX_1200.sch" uri="orex_ldd_OREX_1200.sch"/>
-        <uri name="http://pds.nasa.gov/pds4/orex/v1/orex_ldd_OREX_1200.sch" uri="orex_ldd_OREX_1200.sch"/>
+        <rewriteURI uriStartString="http://pds.nasa.gov/pds4/mission/orex/v1/PDS4_OREX" rewritePrefix="orex_ldd_OREX" />
+        <rewriteURI uriStartString="https://pds.nasa.gov/pds4/orex/v1/PDS4_OREX" rewritePrefix="orex_ldd_OREX" />
+        <rewriteURI uriStartString="http://pds.nasa.gov/pds4/orex/v1/PDS4_OREX" rewritePrefix="orex_ldd_OREX" />
 
-        <uri name="https://pds.nasa.gov/pds4/mission/orex/v1/PDS4_OREX_1000.xsd" uri="orex_ldd_OREX_1000.xsd"/>	
-        <uri name="http://pds.nasa.gov/pds4/mission/orex/v1/PDS4_OREX_1000.xsd" uri="orex_ldd_OREX_1000.xsd"/>	
-        
-        <uri name="https://pds.nasa.gov/pds4/orex/v1/orex_ldd_OREX_1000.sch" uri="orex_ldd_OREX_1000.sch"/>
-        <uri name="http://pds.nasa.gov/pds4/orex/v1/orex_ldd_OREX_1000.sch" uri="orex_ldd_OREX_1000.sch"/>
+        <rewriteURI uriStartString="https://pds.nasa.gov/pds4/orex/v1/" rewritePrefix="." />
+        <rewriteURI uriStartString="http://pds.nasa.gov/pds4/orex/v1/" rewritePrefix="." />
+        <rewriteURI uriStartString="https://pds.nasa.gov/pds4/mission/orex/v1/" rewritePrefix="." />
+        <rewriteURI uriStartString="http://pds.nasa.gov/pds4/mission/orex/v1/" rewritePrefix="." />
     </group>
 
     <group xml:base="pds4/">
