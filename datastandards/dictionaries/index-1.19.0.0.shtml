@@ -3,6 +3,7 @@
 <head>
 	<!-- InstanceBeginEditable name="doctitle" --><title>PDS: Data Dictionaries - 1.19.0.0</title><!-- InstanceEndEditable -->
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="google-site-verification" content="cvIsjQqyHkboRduTpBWbeK09KBShH5qSXKwFi0wltIk" />
 <link href="/css/main.css?v=20221014" type="text/css" rel="stylesheet" media="all" />
 <script src="/scripts/email.js" type="text/javascript"></script>
 <script src="/js/popWindow.js" type="text/javascript"></script>
@@ -545,16 +546,16 @@ $(fixEmail);
 
                 </p>
                 <ul>
-                    <li><b>Last Updated:</b> </li>
+                    <li><b>Last Updated:</b> 04/26/2023</li>
                     <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
                     <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-proc">https://github.com/pds-data-dictionaries/ldd-proc</a></li>
                     <li><b>Data Dictionary Files:</b>
                         <ul>
-                            <li><i>NOTE: A new version of this Local Data Dictionary was not generated with this version of the
-                                PDS4  Information Model. To submit a request the have the LDD generated, please contact the
-                                <a href="mailto:pds-operator@jpl.nasa.gov">PDS Operator</a>, or create an issue in the
-                                <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">PDS4 LDD Issues Repository</a></i>
-                            </li>
+                            <li><a href="/pds4/proc/v1/PDS4_PROC_1J00_1300.xsd">PDS4_PROC_1J00_1300.xsd</a></li>
+                            <li><a href="/pds4/proc/v1/PDS4_PROC_1J00_1300.sch">PDS4_PROC_1J00_1300.sch</a></li>
+                            <li><a href="/pds4/proc/v1/PDS4_PROC_1J00_1300.xml">PDS4_PROC_1J00_1300.xml</a></li>
+                            <li><a href="/pds4/proc/v1/PDS4_PROC_1J00_1300.JSON">PDS4_PROC_1J00_1300.JSON</a></li>
+                            <li><a href="/pds4/proc/v1/PDS4_PROC_1J00_1300.zip">PDS4_PROC_1J00_1300.zip</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -770,7 +771,7 @@ $(fixEmail);
     <a href="http://www.usa.gov"><img class="left" src="/images/usa-gov.gif" alt="logo for USA government website" border="0" /></a>
     <div class="block-info">
       <a href="https://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy / Copyright</a><br />
-      <a href="http://www.hq.nasa.gov/office/pao/FOIA/">Freedom of Information Act</a>
+      <a href="https://www.nasa.gov/FOIA/index.html">Freedom of Information Act</a>
     </div>
   </div>
 
