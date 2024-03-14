@@ -3,6 +3,9 @@
    "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group xml:base="pds4/mission/orex/v1/">
+        <rewriteURI uriStartString="https://pds.nasa.gov/pds4/mission/orex/v1/PDS4_OREX_1500" rewritePrefix="PDS4_OREX_1700_1500" />
+        <rewriteURI uriStartString="http://pds.nasa.gov/pds4/mission/orex/v1/PDS4_OREX_1500" rewritePrefix="PDS4_OREX_1700_1500" />
+
         <rewriteURI uriStartString="https://pds.nasa.gov/pds4/mission/orex/v1/PDS4_OREX" rewritePrefix="orex_ldd_OREX" />
         <rewriteURI uriStartString="http://pds.nasa.gov/pds4/mission/orex/v1/PDS4_OREX" rewritePrefix="orex_ldd_OREX" />
         <rewriteURI uriStartString="https://pds.nasa.gov/pds4/orex/v1/PDS4_OREX" rewritePrefix="orex_ldd_OREX" />
