@@ -210,6 +210,7 @@ $(fixEmail);
 				<li><a href="#proc">Processing_Information</a></li>
 				<li><a href="#radar">Radar LDD</a></li>
 				<li><a href="#rings">Rings Dictionary</a></li>
+        <li><a href="#sb">Small Bodies</a></li>
 				<li><a href="#speclib">Spectral Library</a></li>
 				<li><a href="#sp">Spectral Discipline Dictionary</a></li>
 				<li><a href="#survey">Survey</a></li>
@@ -608,6 +609,28 @@ $(fixEmail);
                 <p><a class="toTop">Back to top</a></p>
             </div>
 
+            <div id="sb">
+                <h4>Small Bodies (sb)</h4>
+                <p>
+                    This dictionary will provide classes to support the documentation, support, discovery, and reuse of data from, by, and for small bodies research.
+                </p>
+                <ul>
+                    <li><b>Last Updated:</b> 01/23/2024</li>
+                    <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
+                    <li><b>Github Repo:</b> <a href="https://pds-data-dictionaries.github.io/ldd-sb">https://pds-data-dictionaries.github.io/ldd-sb</a></li>
+                    <li><b>Data Dictionary Files:</b>
+                        <ul>
+                            <li><a href="/pds4/sb/v1/PDS4_SB_1J00_1000.xsd">PDS4_SB_1J00_1000.xsd</a></li>
+                            <li><a href="/pds4/sb/v1/PDS4_SB_1J00_1000.sch">PDS4_SB_1J00_1000.sch</a></li>
+                            <li><a href="/pds4/sb/v1/PDS4_SB_1J00_1000.xml">PDS4_SB_1J00_1000.xml</a></li>
+                            <li><a href="/pds4/sb/v1/PDS4_SB_1J00_1000.JSON">PDS4_SB_1J00_1000.JSON</a></li>
+                            <li><a href="/pds4/sb/v1/PDS4_SB_1J00_1000.zip">PDS4_SB_1J00_1000.zip</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <p><a class="toTop">Back to top</a></p>
+            </div>
+            
             <div id="speclib">
                 <h4>Spectral Library (speclib)</h4>
                 <p>

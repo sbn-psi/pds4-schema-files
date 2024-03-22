@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en"><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-	<!-- InstanceBeginEditable name="doctitle" --><title>PDS: Data Dictionaries - 1.16.0.0</title><!-- InstanceEndEditable -->
+	<!-- InstanceBeginEditable name="doctitle" --><title>PDS: Data Dictionaries - 1.21.0.0</title><!-- InstanceEndEditable -->
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <meta name="google-site-verification" content="cvIsjQqyHkboRduTpBWbeK09KBShH5qSXKwFi0wltIk" />
 <link href="/css/main.css?v=20221014" type="text/css" rel="stylesheet" media="all" />
@@ -131,11 +131,11 @@ $(fixEmail);
 
 <!-- Main content -->
 <div id="content">
-	<h1><a name="mainContent"></a><!-- InstanceBeginEditable name="pageTitle" -->Data Dictionaries - 1.16.0.0<!-- InstanceEndEditable --></h1>
+	<h1><a name="mainContent"></a><!-- InstanceBeginEditable name="pageTitle" -->Data Dictionaries - 1.21.0.0<!-- InstanceEndEditable --></h1>
     <!-- InstanceBeginEditable name="content" -->
 	<div>
 		<p>
-			The following page links to version 1.16.0.0 of the PDS4 Data Dictionaries, including XML Schema and Schematrons for the applicable PDS4 namespace.
+			The following page links to version 1.21.0.0 of the PDS4 Data Dictionaries, including XML Schema and Schematrons for the applicable PDS4 namespace.
 		</p>
 		<p>
             <b>Past versions of the data dictionaries can be found <a href="/datastandards/dictionaries/index-versions.shtml">here</a>.</b>
@@ -148,7 +148,7 @@ $(fixEmail);
 	<hr />
 	<div id="ldd-search">
 		<h2>Data Dictionary Search</h2>
-		<p><a href="/datastandards/documents/dd/current/PDS4_PDS_DD_1G00/webhelp/all/">Browse and search</a> all data dictionary classes and attributes online.</p>
+		<p><a href="/datastandards/documents/dd/v1/PDS4_PDS_DD_1L00/webhelp/all/">Browse and search</a> all data dictionary classes and attributes online.</p>
 		<hr />
 	</div>
 	<div id="ldd-intro">
@@ -180,11 +180,12 @@ $(fixEmail);
 				<h4>PDS (pds)</h4>
 				<p>This directory contains the XML Schema and Schematron files under the Planetary Data System (PDS) namespace. The JSON file contains an instance of the data dictionary in JavaScript Object Notation.</p>
 				<ul>
-				  <li><a href="/pds4/pds/v1/PDS4_PDS_1G00.xsd">PDS4_PDS_1G00.xsd</a></li>
-				  <li><a href="/pds4/pds/v1/PDS4_PDS_1G00.sch">PDS4_PDS_1G00.sch</a></li>
-				  <li><a href="/pds4/pds/v1/PDS4_PDS_1G00.xml">PDS4_PDS_1G00.xml</a></li>
-				  <li><a href="/pds4/pds/v1/PDS4_PDS_JSON_1G00.JSON">PDS4_PDS_JSON_1G00.JSON</a></li>
-				  <li><a href="/pds4/pds/v1/PDS4_PDS_1G00.zip">PDS4_PDS_1G00.zip</a></li>
+				  <li>Data Dictionary Documentation: <a href="/datastandards/documents/dd/v1/PDS4_PDS_DD_1L00.html">HTML</a>, <a href="/datastandards/documents/dd/v1/PDS4_PDS_DD_1L00.pdf">PDF</a></li>
+				  <li><a href="/pds4/pds/v1/PDS4_PDS_1L00.xsd">PDS4_PDS_1L00.xsd</a></li>
+				  <li><a href="/pds4/pds/v1/PDS4_PDS_1L00.sch">PDS4_PDS_1L00.sch</a></li>
+				  <li><a href="/pds4/pds/v1/PDS4_PDS_1L00.xml">PDS4_PDS_1L00.xml</a></li>
+				  <li><a href="/pds4/pds/v1/PDS4_PDS_1L00.JSON">PDS4_PDS_1L00.JSON</a></li>
+				  <li><a href="/pds4/pds/v1/PDS4_PDS_1L00.zip">PDS4_PDS_1L00.zip</a></li>
 				</ul>
 				<a class="toTop">Back to top</a>
 			</div>
@@ -196,9 +197,11 @@ $(fixEmail);
             				<li><a href="#cart">Cartography</a></li>
 				<li><a href="#ctli">Context Type List: Instrument</a></li>
 				<li><a href="#disp">Display</a></li>
+				<li><a href="#ebt">Earth-Based Telescope</a></li>
 				<li><a href="#geom">Geometry Dictionary Full</a></li>
 				<li><a href="#img">Imaging</a></li>
 				<li><a href="#img_surface">Surface Imaging</a></li>
+				<li><a href="#ml">Machine Learning Analysis</a></li>
 				<li><a href="#msn">Mission Information Commons</a></li>
 				<li><a href="#msn_surface">Surface Mission Information</a></li>
 				<li><a href="#msss_cam_mh">MSSS Camera Mini-header</a></li>
@@ -206,46 +209,33 @@ $(fixEmail);
 				<li><a href="#nucspec">Nuclear Spectroscopy</a></li>
 				<li><a href="#particle">Particle</a></li>
 				<li><a href="#proc">Processing_Information</a></li>
-				<li><a href="#rings">Rings Dictionary</a></li>
+				<li><a href="#radar">Radar</a></li>
+				<li><a href="#rings">Rings</a></li>
+				<li><a href="#sb">Small Bodies</a></li>
 				<li><a href="#speclib">Spectral Library</a></li>
-				<li><a href="#sp">Spectral Discipline Dictionary</a></li>
+				<li><a href="#sp">Spectral</a></li>
 				<li><a href="#survey">Survey</a></li>
+
             </ul>
 
         
             <div id="cart">
                 <h4>Cartography (cart)</h4>
                 <p>
-                    The Cartography Dictionary contains classes, elements, attributes, and rules describing map projections, including
-both cartographic and lander related definitions and descriptions. The PDS Cartography dictionary is based on and
-with modifications and extensions applied by PDS as needed for planetary mapping application.
-utilizes the existing Federal Geographic Data Committee (FGDC) Content Standard for Digital Geospatial Metadata,
+                    The Cartography Dictionary contains classes, elements, attributes, and rules describing map projections, including both cartographic and lander related definitions and descriptions. The PDS Cartography dictionary is based on and utilizes the existing Federal Geographic Data Committee (FGDC) Content Standard for Digital Geospatial Metadata, with modifications and extensions applied by PDS as needed for planetary mapping application.
 
                 </p>
                 <ul>
-                    <li><b>Last Updated:</b> 11/09/2022</li>
+                    <li><b>Last Updated:</b> 11/13/2023</li>
                     <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
-                    <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-cart">https://github.com/pds-data-dictionaries/ldd-cart</a></li>
+                    <li><b>Github Repo:</b> <a href="https://pds-data-dictionaries.github.io/ldd-cart/">https://pds-data-dictionaries.github.io/ldd-cart/</a></li>
                     <li><b>Data Dictionary Files:</b>
                         <ul>
-                            <li><a href="/pds4/cart/v1/PDS4_CART_1G00_1970.xsd">PDS4_CART_1G00_1970.xsd</a></li>
-                            <li><a href="/pds4/cart/v1/PDS4_CART_1G00_1970.sch">PDS4_CART_1G00_1970.sch</a></li>
-                            <li><a href="/pds4/cart/v1/PDS4_CART_1G00_1970.xml">PDS4_CART_1G00_1970.xml</a></li>
-                            <li><a href="/pds4/cart/v1/PDS4_CART_1G00_1970.JSON">PDS4_CART_1G00_1970.JSON</a></li>
-                            <li><a href="/pds4/cart/v1/PDS4_CART_1G00_1970.zip">PDS4_CART_1G00_1970.zip</a></li>
-                        </ul>
-                    </li>
-                    <br/>
-                    <li><b>Last Updated:</b> 06/10/2021</li>
-                    <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
-                    <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-cart">https://github.com/pds-data-dictionaries/ldd-cart</a></li>
-                    <li><b>Data Dictionary Files:</b>
-                        <ul>
-                            <li><a href="/pds4/cart/v1/PDS4_CART_1G00_1950.xsd">PDS4_CART_1G00_1950.xsd</a></li>
-                            <li><a href="/pds4/cart/v1/PDS4_CART_1G00_1950.sch">PDS4_CART_1G00_1950.sch</a></li>
-                            <li><a href="/pds4/cart/v1/PDS4_CART_1G00_1950.xml">PDS4_CART_1G00_1950.xml</a></li>
-                            <li><a href="/pds4/cart/v1/PDS4_CART_1G00_1950.JSON">PDS4_CART_1G00_1950.JSON</a></li>
-                            <li><a href="/pds4/cart/v1/PDS4_CART_1G00_1950.zip">PDS4_CART_1G00_1950.zip</a></li>
+                            <li><a href="/pds4/cart/v1/PDS4_CART_1L00_1970.xsd">PDS4_CART_1L00_1970.xsd</a></li>
+                            <li><a href="/pds4/cart/v1/PDS4_CART_1L00_1970.sch">PDS4_CART_1L00_1970.sch</a></li>
+                            <li><a href="/pds4/cart/v1/PDS4_CART_1L00_1970.xml">PDS4_CART_1L00_1970.xml</a></li>
+                            <li><a href="/pds4/cart/v1/PDS4_CART_1L00_1970.JSON">PDS4_CART_1L00_1970.JSON</a></li>
+                            <li><a href="/pds4/cart/v1/PDS4_CART_1L00_1970.zip">PDS4_CART_1L00_1970.zip</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -259,16 +249,16 @@ utilizes the existing Federal Geographic Data Committee (FGDC) Content Standard 
 
                 </p>
                 <ul>
-                    <li><b>Last Updated:</b> 06/10/2021</li>
+                    <li><b>Last Updated:</b> 11/21/2023</li>
                     <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
                     <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-ctli">https://github.com/pds-data-dictionaries/ldd-ctli</a></li>
                     <li><b>Data Dictionary Files:</b>
                         <ul>
-                            <li><a href="/pds4/ctli/v1/PDS4_CTLI_1G00_1200.xsd">PDS4_CTLI_1G00_1200.xsd</a></li>
-                            <li><a href="/pds4/ctli/v1/PDS4_CTLI_1G00_1200.sch">PDS4_CTLI_1G00_1200.sch</a></li>
-                            <li><a href="/pds4/ctli/v1/PDS4_CTLI_1G00_1200.xml">PDS4_CTLI_1G00_1200.xml</a></li>
-                            <li><a href="/pds4/ctli/v1/PDS4_CTLI_1G00_1200.JSON">PDS4_CTLI_1G00_1200.JSON</a></li>
-                            <li><a href="/pds4/ctli/v1/PDS4_CTLI_1G00_1200.zip">PDS4_CTLI_1G00_1200.zip</a></li>
+                            <li><a href="/pds4/ctli/v2/PDS4_CTLI_1L00_2000.xsd">PDS4_CTLI_1L00_2000.xsd</a></li>
+                            <li><a href="/pds4/ctli/v2/PDS4_CTLI_1L00_2000.sch">PDS4_CTLI_1L00_2000.sch</a></li>
+                            <li><a href="/pds4/ctli/v2/PDS4_CTLI_1L00_2000.xml">PDS4_CTLI_1L00_2000.xml</a></li>
+                            <li><a href="/pds4/ctli/v2/PDS4_CTLI_1L00_2000.JSON">PDS4_CTLI_1L00_2000.JSON</a></li>
+                            <li><a href="/pds4/ctli/v2/PDS4_CTLI_1L00_2000.zip">PDS4_CTLI_1L00_2000.zip</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -282,16 +272,39 @@ utilizes the existing Federal Geographic Data Committee (FGDC) Content Standard 
 
                 </p>
                 <ul>
-                    <li><b>Last Updated:</b> 06/10/2021</li>
+                    <li><b>Last Updated:</b> 11/13/2023</li>
                     <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
                     <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-disp">https://github.com/pds-data-dictionaries/ldd-disp</a></li>
                     <li><b>Data Dictionary Files:</b>
                         <ul>
-                            <li><a href="/pds4/disp/v1/PDS4_DISP_1G00_1500.xsd">PDS4_DISP_1G00_1500.xsd</a></li>
-                            <li><a href="/pds4/disp/v1/PDS4_DISP_1G00_1500.sch">PDS4_DISP_1G00_1500.sch</a></li>
-                            <li><a href="/pds4/disp/v1/PDS4_DISP_1G00_1500.xml">PDS4_DISP_1G00_1500.xml</a></li>
-                            <li><a href="/pds4/disp/v1/PDS4_DISP_1G00_1500.JSON">PDS4_DISP_1G00_1500.JSON</a></li>
-                            <li><a href="/pds4/disp/v1/PDS4_DISP_1G00_1500.zip">PDS4_DISP_1G00_1500.zip</a></li>
+                            <li><a href="/pds4/disp/v1/PDS4_DISP_1L00_1510.xsd">PDS4_DISP_1L00_1510.xsd</a></li>
+                            <li><a href="/pds4/disp/v1/PDS4_DISP_1L00_1510.sch">PDS4_DISP_1L00_1510.sch</a></li>
+                            <li><a href="/pds4/disp/v1/PDS4_DISP_1L00_1510.xml">PDS4_DISP_1L00_1510.xml</a></li>
+                            <li><a href="/pds4/disp/v1/PDS4_DISP_1L00_1510.JSON">PDS4_DISP_1L00_1510.JSON</a></li>
+                            <li><a href="/pds4/disp/v1/PDS4_DISP_1L00_1510.zip">PDS4_DISP_1L00_1510.zip</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <p><a class="toTop">Back to top</a></p>
+            </div>
+
+            <div id="ebt">
+                <h4>Earth-Based Telescope (ebt)</h4>
+                <p>
+                    The Earth-Based Telescope Dictionary contains classes, attributes, and rules for specifying the metadata associated with observing parameters, provenance, and geometry relevant to ground-based telescopes on Earth and for Earth-orbiting (or Lagrange point) telescopes.
+
+                </p>
+                <ul>
+                    <li><b>Last Updated:</b> 11/15/2023</li>
+                    <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
+                    <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-ebt">https://github.com/pds-data-dictionaries/ldd-ebt</a></li>
+                    <li><b>Data Dictionary Files:</b>
+                        <ul>
+                            <li><a href="/pds4/ebt/v1/PDS4_EBT_1L00_1100.xsd">PDS4_EBT_1L00_1100.xsd</a></li>
+                            <li><a href="/pds4/ebt/v1/PDS4_EBT_1L00_1100.sch">PDS4_EBT_1L00_1100.sch</a></li>
+                            <li><a href="/pds4/ebt/v1/PDS4_EBT_1L00_1100.xml">PDS4_EBT_1L00_1100.xml</a></li>
+                            <li><a href="/pds4/ebt/v1/PDS4_EBT_1L00_1100.JSON">PDS4_EBT_1L00_1100.JSON</a></li>
+                            <li><a href="/pds4/ebt/v1/PDS4_EBT_1L00_1100.zip">PDS4_EBT_1L00_1100.zip</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -305,55 +318,16 @@ utilizes the existing Federal Geographic Data Committee (FGDC) Content Standard 
 
                 </p>
                 <ul>
-                    <li><b>Last Updated:</b> 06/07/2022</li>
+                    <li><b>Last Updated:</b> 11/03/2023</li>
                     <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
                     <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-geom">https://github.com/pds-data-dictionaries/ldd-geom</a></li>
                     <li><b>Data Dictionary Files:</b>
                         <ul>
-                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1G00_1960.xsd">PDS4_GEOM_1G00_1960.xsd</a></li>
-                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1G00_1960.sch">PDS4_GEOM_1G00_1960.sch</a></li>
-                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1G00_1960.xml">PDS4_GEOM_1G00_1960.xml</a></li>
-                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1G00_1960.JSON">PDS4_GEOM_1G00_1960.JSON</a></li>
-                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1G00_1960.zip">PDS4_GEOM_1G00_1960.zip</a></li>
-                        </ul>
-                    </li>
-                    <br/>
-                    <li><b>Last Updated:</b> 01/28/2022</li>
-                    <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
-                    <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-geom">https://github.com/pds-data-dictionaries/ldd-geom</a></li>
-                    <li><b>Data Dictionary Files:</b>
-                        <ul>
-                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1G00_1950.xsd">PDS4_GEOM_1G00_1950.xsd</a></li>
-                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1G00_1950.sch">PDS4_GEOM_1G00_1950.sch</a></li>
-                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1G00_1950.xml">PDS4_GEOM_1G00_1950.xml</a></li>
-                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1G00_1950.JSON">PDS4_GEOM_1G00_1950.JSON</a></li>
-                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1G00_1950.zip">PDS4_GEOM_1G00_1950.zip</a></li>
-                        </ul>
-                    </li>
-                    <br/>
-                    <li><b>Last Updated:</b> 11/08/2021</li>
-                    <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
-                    <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-geom">https://github.com/pds-data-dictionaries/ldd-geom</a></li>
-                    <li><b>Data Dictionary Files:</b>
-                        <ul>
-                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1G00_1930.xsd">PDS4_GEOM_1G00_1930.xsd</a></li>
-                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1G00_1930.sch">PDS4_GEOM_1G00_1930.sch</a></li>
-                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1G00_1930.xml">PDS4_GEOM_1G00_1930.xml</a></li>
-                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1G00_1930.JSON">PDS4_GEOM_1G00_1930.JSON</a></li>
-                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1G00_1930.zip">PDS4_GEOM_1G00_1930.zip</a></li>
-                        </ul>
-                    </li>
-                    <br/>
-                    <li><b>Last Updated:</b> 06/09/2021</li>
-                    <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
-                    <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-geom">https://github.com/pds-data-dictionaries/ldd-geom</a></li>
-                    <li><b>Data Dictionary Files:</b>
-                        <ul>
-                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1G00_1920.xsd">PDS4_GEOM_1G00_1920.xsd</a></li>
-                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1G00_1920.sch">PDS4_GEOM_1G00_1920.sch</a></li>
-                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1G00_1920.xml">PDS4_GEOM_1G00_1920.xml</a></li>
-                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1G00_1920.JSON">PDS4_GEOM_1G00_1920.JSON</a></li>
-                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1G00_1920.zip">PDS4_GEOM_1G00_1920.zip</a></li>
+                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1L00_1970.xsd">PDS4_GEOM_1L00_1970.xsd</a></li>
+                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1L00_1970.sch">PDS4_GEOM_1L00_1970.sch</a></li>
+                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1L00_1970.xml">PDS4_GEOM_1L00_1970.xml</a></li>
+                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1L00_1970.JSON">PDS4_GEOM_1L00_1970.JSON</a></li>
+                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1L00_1970.zip">PDS4_GEOM_1L00_1970.zip</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -367,42 +341,16 @@ utilizes the existing Federal Geographic Data Committee (FGDC) Content Standard 
 
                 </p>
                 <ul>
-                    <li><b>Last Updated:</b> 11/09/2022</li>
+                    <li><b>Last Updated:</b> 11/21/2023</li>
                     <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
                     <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-img">https://github.com/pds-data-dictionaries/ldd-img</a></li>
                     <li><b>Data Dictionary Files:</b>
                         <ul>
-                            <li><a href="/pds4/img/v1/PDS4_IMG_1G00_1870.xsd">PDS4_IMG_1G00_1870.xsd</a></li>
-                            <li><a href="/pds4/img/v1/PDS4_IMG_1G00_1870.sch">PDS4_IMG_1G00_1870.sch</a></li>
-                            <li><a href="/pds4/img/v1/PDS4_IMG_1G00_1870.xml">PDS4_IMG_1G00_1870.xml</a></li>
-                            <li><a href="/pds4/img/v1/PDS4_IMG_1G00_1870.JSON">PDS4_IMG_1G00_1870.JSON</a></li>
-                            <li><a href="/pds4/img/v1/PDS4_IMG_1G00_1870.zip">PDS4_IMG_1G00_1870.zip</a></li>
-                        </ul>
-                    </li>
-                    <br/>
-                    <li><b>Last Updated:</b> 08/16/2021</li>
-                    <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
-                    <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-img">https://github.com/pds-data-dictionaries/ldd-img</a></li>
-                    <li><b>Data Dictionary Files:</b>
-                        <ul>
-                            <li><a href="/pds4/img/v1/PDS4_IMG_1G00_1860.xsd">PDS4_IMG_1G00_1860.xsd</a></li>
-                            <li><a href="/pds4/img/v1/PDS4_IMG_1G00_1860.sch">PDS4_IMG_1G00_1860.sch</a></li>
-                            <li><a href="/pds4/img/v1/PDS4_IMG_1G00_1860.xml">PDS4_IMG_1G00_1860.xml</a></li>
-                            <li><a href="/pds4/img/v1/PDS4_IMG_1G00_1860.JSON">PDS4_IMG_1G00_1860.JSON</a></li>
-                            <li><a href="/pds4/img/v1/PDS4_IMG_1G00_1860.zip">PDS4_IMG_1G00_1860.zip</a></li>
-                        </ul>
-                    </li>
-                    <br/>
-                    <li><b>Last Updated:</b> 06/10/2021</li>
-                    <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
-                    <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-img">https://github.com/pds-data-dictionaries/ldd-img</a></li>
-                    <li><b>Data Dictionary Files:</b>
-                        <ul>
-                            <li><a href="/pds4/img/v1/PDS4_IMG_1G00_1850.xsd">PDS4_IMG_1G00_1850.xsd</a></li>
-                            <li><a href="/pds4/img/v1/PDS4_IMG_1G00_1850.sch">PDS4_IMG_1G00_1850.sch</a></li>
-                            <li><a href="/pds4/img/v1/PDS4_IMG_1G00_1850.xml">PDS4_IMG_1G00_1850.xml</a></li>
-                            <li><a href="/pds4/img/v1/PDS4_IMG_1G00_1850.JSON">PDS4_IMG_1G00_1850.JSON</a></li>
-                            <li><a href="/pds4/img/v1/PDS4_IMG_1G00_1850.zip">PDS4_IMG_1G00_1850.zip</a></li>
+                            <li><a href="/pds4/img/v1/PDS4_IMG_1L00_1890.xsd">PDS4_IMG_1L00_1890.xsd</a></li>
+                            <li><a href="/pds4/img/v1/PDS4_IMG_1L00_1890.sch">PDS4_IMG_1L00_1890.sch</a></li>
+                            <li><a href="/pds4/img/v1/PDS4_IMG_1L00_1890.xml">PDS4_IMG_1L00_1890.xml</a></li>
+                            <li><a href="/pds4/img/v1/PDS4_IMG_1L00_1890.JSON">PDS4_IMG_1L00_1890.JSON</a></li>
+                            <li><a href="/pds4/img/v1/PDS4_IMG_1L00_1890.zip">PDS4_IMG_1L00_1890.zip</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -416,55 +364,39 @@ utilizes the existing Federal Geographic Data Committee (FGDC) Content Standard 
 
                 </p>
                 <ul>
-                    <li><b>Last Updated:</b> 08/07/2023</li>
+                    <li><b>Last Updated:</b> 11/13/2023</li>
                     <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
                     <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-img_surface">https://github.com/pds-data-dictionaries/ldd-img_surface</a></li>
                     <li><b>Data Dictionary Files:</b>
                         <ul>
-                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1G00_1280.xsd">PDS4_IMG_SURFACE_1G00_1280.xsd</a></li>
-                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1G00_1280.sch">PDS4_IMG_SURFACE_1G00_1280.sch</a></li>
-                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1G00_1280.xml">PDS4_IMG_SURFACE_1G00_1280.xml</a></li>
-                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1G00_1280.JSON">PDS4_IMG_SURFACE_1G00_1280.JSON</a></li>
-                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1G00_1280.zip">PDS4_IMG_SURFACE_1G00_1280.zip</a></li>
+                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1L00_1280.xsd">PDS4_IMG_SURFACE_1L00_1280.xsd</a></li>
+                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1L00_1280.sch">PDS4_IMG_SURFACE_1L00_1280.sch</a></li>
+                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1L00_1280.xml">PDS4_IMG_SURFACE_1L00_1280.xml</a></li>
+                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1L00_1280.JSON">PDS4_IMG_SURFACE_1L00_1280.JSON</a></li>
+                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1L00_1280.zip">PDS4_IMG_SURFACE_1L00_1280.zip</a></li>
                         </ul>
                     </li>
-                    <br/>
-                    <li><b>Last Updated:</b> 11/09/2022</li>
+                </ul>
+                <p><a class="toTop">Back to top</a></p>
+            </div>
+
+            <div id="ml">
+                <h4>Machine Learning Analysis (ml)</h4>
+                <p>
+                    The Machine Learning Analysis dictionary defines classes and attributes used to describe products generated by machine learning methods applied to PDS data. This information provides traceability for product provenance and credit to the creators.
+
+                </p>
+                <ul>
+                    <li><b>Last Updated:</b> 11/06/2023</li>
                     <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
-                    <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-img_surface">https://github.com/pds-data-dictionaries/ldd-img_surface</a></li>
+                    <li><b>Github Repo:</b> <a href="https://pds-data-dictionaries.github.io/ldd-ml">https://pds-data-dictionaries.github.io/ldd-ml</a></li>
                     <li><b>Data Dictionary Files:</b>
                         <ul>
-                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1G00_1270.xsd">PDS4_IMG_SURFACE_1G00_1270.xsd</a></li>
-                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1G00_1270.sch">PDS4_IMG_SURFACE_1G00_1270.sch</a></li>
-                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1G00_1270.xml">PDS4_IMG_SURFACE_1G00_1270.xml</a></li>
-                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1G00_1270.JSON">PDS4_IMG_SURFACE_1G00_1270.JSON</a></li>
-                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1G00_1270.zip">PDS4_IMG_SURFACE_1G00_1270.zip</a></li>
-                        </ul>
-                    </li>
-                    <br/>
-                    <li><b>Last Updated:</b> 08/19/2021</li>
-                    <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
-                    <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-img_surface">https://github.com/pds-data-dictionaries/ldd-img_surface</a></li>
-                    <li><b>Data Dictionary Files:</b>
-                        <ul>
-                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1G00_1260.xsd">PDS4_IMG_SURFACE_1G00_1260.xsd</a></li>
-                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1G00_1260.sch">PDS4_IMG_SURFACE_1G00_1260.sch</a></li>
-                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1G00_1260.xml">PDS4_IMG_SURFACE_1G00_1260.xml</a></li>
-                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1G00_1260.JSON">PDS4_IMG_SURFACE_1G00_1260.JSON</a></li>
-                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1G00_1260.zip">PDS4_IMG_SURFACE_1G00_1260.zip</a></li>
-                        </ul>
-                    </li>
-                    <br/>
-                    <li><b>Last Updated:</b> 06/10/2021</li>
-                    <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
-                    <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-img_surface">https://github.com/pds-data-dictionaries/ldd-img_surface</a></li>
-                    <li><b>Data Dictionary Files:</b>
-                        <ul>
-                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1G00_1250.xsd">PDS4_IMG_SURFACE_1G00_1250.xsd</a></li>
-                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1G00_1250.sch">PDS4_IMG_SURFACE_1G00_1250.sch</a></li>
-                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1G00_1250.xml">PDS4_IMG_SURFACE_1G00_1250.xml</a></li>
-                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1G00_1250.JSON">PDS4_IMG_SURFACE_1G00_1250.JSON</a></li>
-                            <li><a href="/pds4/img_surface/v1/PDS4_IMG_SURFACE_1G00_1250.zip">PDS4_IMG_SURFACE_1G00_1250.zip</a></li>
+                            <li><a href="/pds4/ml/v1/PDS4_ML_1L00_1200.xsd">PDS4_ML_1L00_1200.xsd</a></li>
+                            <li><a href="/pds4/ml/v1/PDS4_ML_1L00_1200.sch">PDS4_ML_1L00_1200.sch</a></li>
+                            <li><a href="/pds4/ml/v1/PDS4_ML_1L00_1200.xml">PDS4_ML_1L00_1200.xml</a></li>
+                            <li><a href="/pds4/ml/v1/PDS4_ML_1L00_1200.JSON">PDS4_ML_1L00_1200.JSON</a></li>
+                            <li><a href="/pds4/ml/v1/PDS4_ML_1L00_1200.zip">PDS4_ML_1L00_1200.zip</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -474,20 +406,20 @@ utilizes the existing Federal Geographic Data Committee (FGDC) Content Standard 
             <div id="msn">
                 <h4>Mission Information Commons (msn)</h4>
                 <p>
-                    The sub-directory for the Mission Information class namespace.
+                    The sub-dictionary for the Mission Information class namespace.
 
                 </p>
                 <ul>
-                    <li><b>Last Updated:</b> 06/10/2021</li>
+                    <li><b>Last Updated:</b> 11/13/2023</li>
                     <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
                     <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-msn">https://github.com/pds-data-dictionaries/ldd-msn</a></li>
                     <li><b>Data Dictionary Files:</b>
                         <ul>
-                            <li><a href="/pds4/msn/v1/PDS4_MSN_1G00_1300.xsd">PDS4_MSN_1G00_1300.xsd</a></li>
-                            <li><a href="/pds4/msn/v1/PDS4_MSN_1G00_1300.sch">PDS4_MSN_1G00_1300.sch</a></li>
-                            <li><a href="/pds4/msn/v1/PDS4_MSN_1G00_1300.xml">PDS4_MSN_1G00_1300.xml</a></li>
-                            <li><a href="/pds4/msn/v1/PDS4_MSN_1G00_1300.JSON">PDS4_MSN_1G00_1300.JSON</a></li>
-                            <li><a href="/pds4/msn/v1/PDS4_MSN_1G00_1300.zip">PDS4_MSN_1G00_1300.zip</a></li>
+                            <li><a href="/pds4/msn/v1/PDS4_MSN_1L00_1303.xsd">PDS4_MSN_1L00_1303.xsd</a></li>
+                            <li><a href="/pds4/msn/v1/PDS4_MSN_1L00_1303.sch">PDS4_MSN_1L00_1303.sch</a></li>
+                            <li><a href="/pds4/msn/v1/PDS4_MSN_1L00_1303.xml">PDS4_MSN_1L00_1303.xml</a></li>
+                            <li><a href="/pds4/msn/v1/PDS4_MSN_1L00_1303.JSON">PDS4_MSN_1L00_1303.JSON</a></li>
+                            <li><a href="/pds4/msn/v1/PDS4_MSN_1L00_1303.zip">PDS4_MSN_1L00_1303.zip</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -501,16 +433,16 @@ utilizes the existing Federal Geographic Data Committee (FGDC) Content Standard 
 
                 </p>
                 <ul>
-                    <li><b>Last Updated:</b> 06/10/2021</li>
+                    <li><b>Last Updated:</b> 11/13/2023</li>
                     <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
                     <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-msn_surface">https://github.com/pds-data-dictionaries/ldd-msn_surface</a></li>
                     <li><b>Data Dictionary Files:</b>
                         <ul>
-                            <li><a href="/pds4/msn_surface/v1/PDS4_MSN_SURFACE_1G00_1220.xsd">PDS4_MSN_SURFACE_1G00_1220.xsd</a></li>
-                            <li><a href="/pds4/msn_surface/v1/PDS4_MSN_SURFACE_1G00_1220.sch">PDS4_MSN_SURFACE_1G00_1220.sch</a></li>
-                            <li><a href="/pds4/msn_surface/v1/PDS4_MSN_SURFACE_1G00_1220.xml">PDS4_MSN_SURFACE_1G00_1220.xml</a></li>
-                            <li><a href="/pds4/msn_surface/v1/PDS4_MSN_SURFACE_1G00_1220.JSON">PDS4_MSN_SURFACE_1G00_1220.JSON</a></li>
-                            <li><a href="/pds4/msn_surface/v1/PDS4_MSN_SURFACE_1G00_1220.zip">PDS4_MSN_SURFACE_1G00_1220.zip</a></li>
+                            <li><a href="/pds4/msn_surface/v1/PDS4_MSN_SURFACE_1L00_1220.xsd">PDS4_MSN_SURFACE_1L00_1220.xsd</a></li>
+                            <li><a href="/pds4/msn_surface/v1/PDS4_MSN_SURFACE_1L00_1220.sch">PDS4_MSN_SURFACE_1L00_1220.sch</a></li>
+                            <li><a href="/pds4/msn_surface/v1/PDS4_MSN_SURFACE_1L00_1220.xml">PDS4_MSN_SURFACE_1L00_1220.xml</a></li>
+                            <li><a href="/pds4/msn_surface/v1/PDS4_MSN_SURFACE_1L00_1220.JSON">PDS4_MSN_SURFACE_1L00_1220.JSON</a></li>
+                            <li><a href="/pds4/msn_surface/v1/PDS4_MSN_SURFACE_1L00_1220.zip">PDS4_MSN_SURFACE_1L00_1220.zip</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -521,31 +453,19 @@ utilizes the existing Federal Geographic Data Committee (FGDC) Content Standard 
                 <h4>MSSS Camera Mini-header (msss_cam_mh)</h4>
                 <p>
                     This dictionary is for a class of cameras developed by Malin Space Science Systems (MSSS) that share a common architecture or digital electronics assembly. Example cameras include Mastcam, MAHLI, MARDI, Mastcam-Z, SHERLOC-Watson and SHERLOC-ACI
+
                 </p>
                 <ul>
-                    <li><b>Last Updated:</b> 08/16/2021</li>
+                    <li><b>Last Updated:</b> 11/13/2023</li>
                     <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
                     <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-msss_cam_mh">https://github.com/pds-data-dictionaries/ldd-msss_cam_mh</a></li>
                     <li><b>Data Dictionary Files:</b>
                         <ul>
-                            <li><a href="/pds4/msss_cam_mh/v1/PDS4_MSSS_CAM_MH_1G00_1030.xsd">PDS4_MSSS_CAM_MH_1G00_1030.xsd</a></li>
-                            <li><a href="/pds4/msss_cam_mh/v1/PDS4_MSSS_CAM_MH_1G00_1030.sch">PDS4_MSSS_CAM_MH_1G00_1030.sch</a></li>
-                            <li><a href="/pds4/msss_cam_mh/v1/PDS4_MSSS_CAM_MH_1G00_1030.xml">PDS4_MSSS_CAM_MH_1G00_1030.xml</a></li>
-                            <li><a href="/pds4/msss_cam_mh/v1/PDS4_MSSS_CAM_MH_1G00_1030.JSON">PDS4_MSSS_CAM_MH_1G00_1030.JSON</a></li>
-                            <li><a href="/pds4/msss_cam_mh/v1/PDS4_MSSS_CAM_MH_1G00_1030.zip">PDS4_MSSS_CAM_MH_1G00_1030.zip</a></li>
-                        </ul>
-                    </li>
-                    <br/>
-                    <li><b>Last Updated:</b> 06/10/2021</li>
-                    <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
-                    <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-msss_cam_mh">https://github.com/pds-data-dictionaries/ldd-msss_cam_mh</a></li>
-                    <li><b>Data Dictionary Files:</b>
-                        <ul>
-                            <li><a href="/pds4/msss_cam_mh/v1/PDS4_MSSS_CAM_MH_1G00_1020.xsd">PDS4_MSSS_CAM_MH_1G00_1020.xsd</a></li>
-                            <li><a href="/pds4/msss_cam_mh/v1/PDS4_MSSS_CAM_MH_1G00_1020.sch">PDS4_MSSS_CAM_MH_1G00_1020.sch</a></li>
-                            <li><a href="/pds4/msss_cam_mh/v1/PDS4_MSSS_CAM_MH_1G00_1020.xml">PDS4_MSSS_CAM_MH_1G00_1020.xml</a></li>
-                            <li><a href="/pds4/msss_cam_mh/v1/PDS4_MSSS_CAM_MH_1G00_1020.JSON">PDS4_MSSS_CAM_MH_1G00_1020.JSON</a></li>
-                            <li><a href="/pds4/msss_cam_mh/v1/PDS4_MSSS_CAM_MH_1G00_1020.zip">PDS4_MSSS_CAM_MH_1G00_1020.zip</a></li>
+                            <li><a href="/pds4/msss_cam_mh/v1/PDS4_MSSS_CAM_MH_1L00_1030.xsd">PDS4_MSSS_CAM_MH_1L00_1030.xsd</a></li>
+                            <li><a href="/pds4/msss_cam_mh/v1/PDS4_MSSS_CAM_MH_1L00_1030.sch">PDS4_MSSS_CAM_MH_1L00_1030.sch</a></li>
+                            <li><a href="/pds4/msss_cam_mh/v1/PDS4_MSSS_CAM_MH_1L00_1030.xml">PDS4_MSSS_CAM_MH_1L00_1030.xml</a></li>
+                            <li><a href="/pds4/msss_cam_mh/v1/PDS4_MSSS_CAM_MH_1L00_1030.JSON">PDS4_MSSS_CAM_MH_1L00_1030.JSON</a></li>
+                            <li><a href="/pds4/msss_cam_mh/v1/PDS4_MSSS_CAM_MH_1L00_1030.zip">PDS4_MSSS_CAM_MH_1L00_1030.zip</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -559,16 +479,16 @@ utilizes the existing Federal Geographic Data Committee (FGDC) Content Standard 
 
                 </p>
                 <ul>
-                    <li><b>Last Updated:</b> 09/13/2021</li>
+                    <li><b>Last Updated:</b> 11/15/2023</li>
                     <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
                     <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-multi">https://github.com/pds-data-dictionaries/ldd-multi</a></li>
                     <li><b>Data Dictionary Files:</b>
                         <ul>
-                            <li><a href="/pds4/multi/v2/PDS4_MULTI_1G00_2000.xsd">PDS4_MULTI_1G00_2000.xsd</a></li>
-                            <li><a href="/pds4/multi/v2/PDS4_MULTI_1G00_2000.sch">PDS4_MULTI_1G00_2000.sch</a></li>
-                            <li><a href="/pds4/multi/v2/PDS4_MULTI_1G00_2000.xml">PDS4_MULTI_1G00_2000.xml</a></li>
-                            <li><a href="/pds4/multi/v2/PDS4_MULTI_1G00_2000.JSON">PDS4_MULTI_1G00_2000.JSON</a></li>
-                            <li><a href="/pds4/multi/v2/PDS4_MULTI_1G00_2000.zip">PDS4_MULTI_1G00_2000.zip</a></li>
+                            <li><a href="/pds4/multi/v2/PDS4_MULTI_1L00_2000.xsd">PDS4_MULTI_1L00_2000.xsd</a></li>
+                            <li><a href="/pds4/multi/v2/PDS4_MULTI_1L00_2000.sch">PDS4_MULTI_1L00_2000.sch</a></li>
+                            <li><a href="/pds4/multi/v2/PDS4_MULTI_1L00_2000.xml">PDS4_MULTI_1L00_2000.xml</a></li>
+                            <li><a href="/pds4/multi/v2/PDS4_MULTI_1L00_2000.JSON">PDS4_MULTI_1L00_2000.JSON</a></li>
+                            <li><a href="/pds4/multi/v2/PDS4_MULTI_1L00_2000.zip">PDS4_MULTI_1L00_2000.zip</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -582,16 +502,16 @@ utilizes the existing Federal Geographic Data Committee (FGDC) Content Standard 
 
                 </p>
                 <ul>
-                    <li><b>Last Updated:</b> 06/08/2021</li>
+                    <li><b>Last Updated:</b> 11/15/2023</li>
                     <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
                     <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-nucspec">https://github.com/pds-data-dictionaries/ldd-nucspec</a></li>
                     <li><b>Data Dictionary Files:</b>
                         <ul>
-                            <li><a href="/pds4/nucspec/v1/PDS4_NUCSPEC_1G00_1000.xsd">PDS4_NUCSPEC_1G00_1000.xsd</a></li>
-                            <li><a href="/pds4/nucspec/v1/PDS4_NUCSPEC_1G00_1000.sch">PDS4_NUCSPEC_1G00_1000.sch</a></li>
-                            <li><a href="/pds4/nucspec/v1/PDS4_NUCSPEC_1G00_1000.xml">PDS4_NUCSPEC_1G00_1000.xml</a></li>
-                            <li><a href="/pds4/nucspec/v1/PDS4_NUCSPEC_1G00_1000.JSON">PDS4_NUCSPEC_1G00_1000.JSON</a></li>
-                            <li><a href="/pds4/nucspec/v1/PDS4_NUCSPEC_1G00_1000.zip">PDS4_NUCSPEC_1G00_1000.zip</a></li>
+                            <li><a href="/pds4/nucspec/v1/PDS4_NUCSPEC_1L00_1100.xsd">PDS4_NUCSPEC_1L00_1100.xsd</a></li>
+                            <li><a href="/pds4/nucspec/v1/PDS4_NUCSPEC_1L00_1100.sch">PDS4_NUCSPEC_1L00_1100.sch</a></li>
+                            <li><a href="/pds4/nucspec/v1/PDS4_NUCSPEC_1L00_1100.xml">PDS4_NUCSPEC_1L00_1100.xml</a></li>
+                            <li><a href="/pds4/nucspec/v1/PDS4_NUCSPEC_1L00_1100.JSON">PDS4_NUCSPEC_1L00_1100.JSON</a></li>
+                            <li><a href="/pds4/nucspec/v1/PDS4_NUCSPEC_1L00_1100.zip">PDS4_NUCSPEC_1L00_1100.zip</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -605,16 +525,16 @@ utilizes the existing Federal Geographic Data Committee (FGDC) Content Standard 
 
                 </p>
                 <ul>
-                    <li><b>Last Updated:</b>  08/09/2021</li>
+                    <li><b>Last Updated:</b> 11/15/2023</li>
                     <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
                     <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-particle">https://github.com/pds-data-dictionaries/ldd-particle</a></li>
                     <li><b>Data Dictionary Files:</b>
                         <ul>
-                            <li><a href="/pds4/particle/v2/PDS4_PARTICLE_1G00_2010.xsd">PDS4_PARTICLE_1G00_2010.xsd</a></li>
-                            <li><a href="/pds4/particle/v2/PDS4_PARTICLE_1G00_2010.sch">PDS4_PARTICLE_1G00_2010.sch</a></li>
-                            <li><a href="/pds4/particle/v2/PDS4_PARTICLE_1G00_2010.xml">PDS4_PARTICLE_1G00_2010.xml</a></li>
-                            <li><a href="/pds4/particle/v2/PDS4_PARTICLE_1G00_2010.JSON">PDS4_PARTICLE_1G00_2010.JSON</a></li>
-                            <li><a href="/pds4/particle/v2/PDS4_PARTICLE_1G00_2010.zip">PDS4_PARTICLE_1G00_2010.zip</a></li>
+                            <li><a href="/pds4/particle/v2/PDS4_PARTICLE_1L00_2010.xsd">PDS4_PARTICLE_1L00_2010.xsd</a></li>
+                            <li><a href="/pds4/particle/v2/PDS4_PARTICLE_1L00_2010.sch">PDS4_PARTICLE_1L00_2010.sch</a></li>
+                            <li><a href="/pds4/particle/v2/PDS4_PARTICLE_1L00_2010.xml">PDS4_PARTICLE_1L00_2010.xml</a></li>
+                            <li><a href="/pds4/particle/v2/PDS4_PARTICLE_1L00_2010.JSON">PDS4_PARTICLE_1L00_2010.JSON</a></li>
+                            <li><a href="/pds4/particle/v2/PDS4_PARTICLE_1L00_2010.zip">PDS4_PARTICLE_1L00_2010.zip</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -628,16 +548,39 @@ utilizes the existing Federal Geographic Data Committee (FGDC) Content Standard 
 
                 </p>
                 <ul>
-                    <li><b>Last Updated:</b> 06/10/2021</li>
+                    <li><b>Last Updated:</b> 11/21/2023</li>
                     <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
-                    <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-proc">https://github.com/pds-data-dictionaries/ldd-proc</a></li>
+                    <li><b>Github Repo:</b> <a href="https://pds-data-dictionaries.github.io/ldd-proc">https://pds-data-dictionaries.github.io/ldd-proc</a></li>
                     <li><b>Data Dictionary Files:</b>
                         <ul>
-                            <li><a href="/pds4/proc/v1/PDS4_PROC_1G00_1210.xsd">PDS4_PROC_1G00_1210.xsd</a></li>
-                            <li><a href="/pds4/proc/v1/PDS4_PROC_1G00_1210.sch">PDS4_PROC_1G00_1210.sch</a></li>
-                            <li><a href="/pds4/proc/v1/PDS4_PROC_1G00_1210.xml">PDS4_PROC_1G00_1210.xml</a></li>
-                            <li><a href="/pds4/proc/v1/PDS4_PROC_1G00_1210.JSON">PDS4_PROC_1G00_1210.JSON</a></li>
-                            <li><a href="/pds4/proc/v1/PDS4_PROC_1G00_1210.zip">PDS4_PROC_1G00_1210.zip</a></li>
+                            <li><a href="/pds4/proc/v1/PDS4_PROC_1L00_1300.xsd">PDS4_PROC_1L00_1300.xsd</a></li>
+                            <li><a href="/pds4/proc/v1/PDS4_PROC_1L00_1300.sch">PDS4_PROC_1L00_1300.sch</a></li>
+                            <li><a href="/pds4/proc/v1/PDS4_PROC_1L00_1300.xml">PDS4_PROC_1L00_1300.xml</a></li>
+                            <li><a href="/pds4/proc/v1/PDS4_PROC_1L00_1300.JSON">PDS4_PROC_1L00_1300.JSON</a></li>
+                            <li><a href="/pds4/proc/v1/PDS4_PROC_1L00_1300.zip">PDS4_PROC_1L00_1300.zip</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <p><a class="toTop">Back to top</a></p>
+            </div>
+
+            <div id="radar">
+                <h4>Radar (radar)</h4>
+                <p>
+                    The Radar dictionary describes the circumstances surrounding radar observations.
+
+                </p>
+                <ul>
+                    <li><b>Last Updated:</b> </li>
+                    <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
+                    <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-radar">https://github.com/pds-data-dictionaries/ldd-radar</a></li>
+                    <li><b>Data Dictionary Files:</b>
+                        <ul>
+                            <li><i>NOTE: A new version of this Local Data Dictionary was not generated with this version of the
+                                PDS4  Information Model. To submit a request the have the LDD generated, please submit a request to the
+                                <a href="https://pds.nasa.gov/?feedback=true">PDS Help Desk</a>, or create an issue in the
+                                <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">PDS4 LDD Issues Repository</a></i>
+                            </li>
                         </ul>
                     </li>
                 </ul>
@@ -651,29 +594,39 @@ utilizes the existing Federal Geographic Data Committee (FGDC) Content Standard 
 
                 </p>
                 <ul>
-                    <li><b>Last Updated:</b> 02/15/2023</li>
+                    <li><b>Last Updated:</b> 11/21/2023</li>
                     <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
                     <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-rings">https://github.com/pds-data-dictionaries/ldd-rings</a></li>
                     <li><b>Data Dictionary Files:</b>
                         <ul>
-                            <li><a href="/pds4/rings/v1/PDS4_RINGS_1G00_1B00.xsd">PDS4_RINGS_1G00_1B00.xsd</a></li>
-                            <li><a href="/pds4/rings/v1/PDS4_RINGS_1G00_1B00.sch">PDS4_RINGS_1G00_1B00.sch</a></li>
-                            <li><a href="/pds4/rings/v1/PDS4_RINGS_1G00_1B00.xml">PDS4_RINGS_1G00_1B00.xml</a></li>
-                            <li><a href="/pds4/rings/v1/PDS4_RINGS_1G00_1B00.JSON">PDS4_RINGS_1G00_1B00.JSON</a></li>
-                            <li><a href="/pds4/rings/v1/PDS4_RINGS_1G00_1B00.zip">PDS4_RINGS_1G00_1B00.zip</a></li>
+                            <li><a href="/pds4/rings/v1/PDS4_RINGS_1L00_1C00.xsd">PDS4_RINGS_1L00_1C00.xsd</a></li>
+                            <li><a href="/pds4/rings/v1/PDS4_RINGS_1L00_1C00.sch">PDS4_RINGS_1L00_1C00.sch</a></li>
+                            <li><a href="/pds4/rings/v1/PDS4_RINGS_1L00_1C00.xml">PDS4_RINGS_1L00_1C00.xml</a></li>
+                            <li><a href="/pds4/rings/v1/PDS4_RINGS_1L00_1C00.JSON">PDS4_RINGS_1L00_1C00.JSON</a></li>
+                            <li><a href="/pds4/rings/v1/PDS4_RINGS_1L00_1C00.zip">PDS4_RINGS_1L00_1C00.zip</a></li>
                         </ul>
                     </li>
-                    <br/>
-                    <li><b>Last Updated:</b> 05/17/2021</li>
+                </ul>
+                <p><a class="toTop">Back to top</a></p>
+            </div>
+
+            <div id="sb">
+                <h4>Small Bodies (sb)</h4>
+                <p>
+                    This dictionary will provide classes to support the documentation, support, discovery, and reuse of data from, by, and for small bodies research.
+
+                </p>
+                <ul>
+                    <li><b>Last Updated:</b> 01/23/2024</li>
                     <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
-                    <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-rings">https://github.com/pds-data-dictionaries/ldd-rings</a></li>
+                    <li><b>Github Repo:</b> <a href="https://pds-data-dictionaries.github.io/ldd-sb">https://pds-data-dictionaries.github.io/ldd-sb</a></li>
                     <li><b>Data Dictionary Files:</b>
                         <ul>
-                            <li><a href="/pds4/rings/v1/PDS4_RINGS_1G00_1A00.xsd">PDS4_RINGS_1G00_1A00.xsd</a></li>
-                            <li><a href="/pds4/rings/v1/PDS4_RINGS_1G00_1A00.sch">PDS4_RINGS_1G00_1A00.sch</a></li>
-                            <li><a href="/pds4/rings/v1/PDS4_RINGS_1G00_1A00.xml">PDS4_RINGS_1G00_1A00.xml</a></li>
-                            <li><a href="/pds4/rings/v1/PDS4_RINGS_1G00_1A00.JSON">PDS4_RINGS_1G00_1A00.JSON</a></li>
-                            <li><a href="/pds4/rings/v1/PDS4_RINGS_1G00_1A00.zip">PDS4_RINGS_1G00_1A00.zip</a></li>
+                            <li><a href="/pds4/sb/v1/PDS4_SB_1L00_1000.xsd">PDS4_SB_1L00_1000.xsd</a></li>
+                            <li><a href="/pds4/sb/v1/PDS4_SB_1L00_1000.sch">PDS4_SB_1L00_1000.sch</a></li>
+                            <li><a href="/pds4/sb/v1/PDS4_SB_1L00_1000.xml">PDS4_SB_1L00_1000.xml</a></li>
+                            <li><a href="/pds4/sb/v1/PDS4_SB_1L00_1000.JSON">PDS4_SB_1L00_1000.JSON</a></li>
+                            <li><a href="/pds4/sb/v1/PDS4_SB_1L00_1000.zip">PDS4_SB_1L00_1000.zip</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -687,29 +640,16 @@ utilizes the existing Federal Geographic Data Committee (FGDC) Content Standard 
 
                 </p>
                 <ul>
-                    <li><b>Last Updated:</b> 01/28/2022</li>
+                    <li><b>Last Updated:</b> 11/03/2023</li>
                     <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
                     <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-speclib">https://github.com/pds-data-dictionaries/ldd-speclib</a></li>
                     <li><b>Data Dictionary Files:</b>
                         <ul>
-                            <li><a href="/pds4/speclib/v1/PDS4_SPECLIB_1G00_1300.xsd">PDS4_SPECLIB_1G00_1300.xsd</a></li>
-                            <li><a href="/pds4/speclib/v1/PDS4_SPECLIB_1G00_1300.sch">PDS4_SPECLIB_1G00_1300.sch</a></li>
-                            <li><a href="/pds4/speclib/v1/PDS4_SPECLIB_1G00_1300.xml">PDS4_SPECLIB_1G00_1300.xml</a></li>
-                            <li><a href="/pds4/speclib/v1/PDS4_SPECLIB_1G00_1300.JSON">PDS4_SPECLIB_1G00_1300.JSON</a></li>
-                            <li><a href="/pds4/speclib/v1/PDS4_SPECLIB_1G00_1300.zip">PDS4_SPECLIB_1G00_1300.zip</a></li>
-                        </ul>
-                    </li>
-                    <br/>
-                    <li><b>Last Updated:</b> 05/10/2021</li>
-                    <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
-                    <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-speclib">https://github.com/pds-data-dictionaries/ldd-speclib</a></li>
-                    <li><b>Data Dictionary Files:</b>
-                        <ul>
-                            <li><a href="/pds4/speclib/v1/PDS4_SPECLIB_1G00_1100.xsd">PDS4_SPECLIB_1G00_1100.xsd</a></li>
-                            <li><a href="/pds4/speclib/v1/PDS4_SPECLIB_1G00_1100.sch">PDS4_SPECLIB_1G00_1100.sch</a></li>
-                            <li><a href="/pds4/speclib/v1/PDS4_SPECLIB_1G00_1100.xml">PDS4_SPECLIB_1G00_1100.xml</a></li>
-                            <li><a href="/pds4/speclib/v1/PDS4_SPECLIB_1G00_1100.JSON">PDS4_SPECLIB_1G00_1100.JSON</a></li>
-                            <li><a href="/pds4/speclib/v1/PDS4_SPECLIB_1G00_1100.zip">PDS4_SPECLIB_1G00_1100.zip</a></li>
+                            <li><a href="/pds4/speclib/v1/PDS4_SPECLIB_1L00_1500.xsd">PDS4_SPECLIB_1L00_1500.xsd</a></li>
+                            <li><a href="/pds4/speclib/v1/PDS4_SPECLIB_1L00_1500.sch">PDS4_SPECLIB_1L00_1500.sch</a></li>
+                            <li><a href="/pds4/speclib/v1/PDS4_SPECLIB_1L00_1500.xml">PDS4_SPECLIB_1L00_1500.xml</a></li>
+                            <li><a href="/pds4/speclib/v1/PDS4_SPECLIB_1L00_1500.JSON">PDS4_SPECLIB_1L00_1500.JSON</a></li>
+                            <li><a href="/pds4/speclib/v1/PDS4_SPECLIB_1L00_1500.zip">PDS4_SPECLIB_1L00_1500.zip</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -717,35 +657,22 @@ utilizes the existing Federal Geographic Data Committee (FGDC) Content Standard 
             </div>
 
             <div id="sp">
-                <h4>Spectral Discipline Dictionary (sp)</h4>
+                <h4>Spectral (sp)</h4>
                 <p>
                     The Spectral (sp) Discipline Dictionary contains classes for defining the spectral bin characteristics (in wavelength, frequency, or wave number) of a data product.
 
                 </p>
                 <ul>
-                    <li><b>Last Updated:</b> 06/23/2021</li>
+                    <li><b>Last Updated:</b> 11/16/2023</li>
                     <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
                     <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-spectral">https://github.com/pds-data-dictionaries/ldd-spectral</a></li>
                     <li><b>Data Dictionary Files:</b>
                         <ul>
-                            <li><a href="/pds4/sp/v1/PDS4_SP_1G00_1310.xsd">PDS4_SP_1G00_1310.xsd</a></li>
-                            <li><a href="/pds4/sp/v1/PDS4_SP_1G00_1310.sch">PDS4_SP_1G00_1310.sch</a></li>
-                            <li><a href="/pds4/sp/v1/PDS4_SP_1G00_1310.xml">PDS4_SP_1G00_1310.xml</a></li>
-                            <li><a href="/pds4/sp/v1/PDS4_SP_1G00_1310.JSON">PDS4_SP_1G00_1310.JSON</a></li>
-                            <li><a href="/pds4/sp/v1/PDS4_SP_1G00_1310.zip">PDS4_SP_1G00_1310.zip</a></li>
-                        </ul>
-        		    </li>
-        		    <br/>
-                    <li><b>Last Updated:</b> 05/18/2021</li>
-                    <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
-                    <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-spectral">https://github.com/pds-data-dictionaries/ldd-spectral</a></li>
-                    <li><b>Data Dictionary Files:</b>
-                        <ul>
-                            <li><a href="/pds4/sp/v1/PDS4_SP_1G00_1300.xsd">PDS4_SP_1G00_1300.xsd</a></li>
-                            <li><a href="/pds4/sp/v1/PDS4_SP_1G00_1300.sch">PDS4_SP_1G00_1300.sch</a></li>
-                            <li><a href="/pds4/sp/v1/PDS4_SP_1G00_1300.xml">PDS4_SP_1G00_1300.xml</a></li>
-                            <li><a href="/pds4/sp/v1/PDS4_SP_1G00_1300.JSON">PDS4_SP_1G00_1300.JSON</a></li>
-                            <li><a href="/pds4/sp/v1/PDS4_SP_1G00_1300.zip">PDS4_SP_1G00_1300.zip</a></li>
+                            <li><a href="/pds4/sp/v1/PDS4_SP_1L00_1311.xsd">PDS4_SP_1L00_1311.xsd</a></li>
+                            <li><a href="/pds4/sp/v1/PDS4_SP_1L00_1311.sch">PDS4_SP_1L00_1311.sch</a></li>
+                            <li><a href="/pds4/sp/v1/PDS4_SP_1L00_1311.xml">PDS4_SP_1L00_1311.xml</a></li>
+                            <li><a href="/pds4/sp/v1/PDS4_SP_1L00_1311.JSON">PDS4_SP_1L00_1311.JSON</a></li>
+                            <li><a href="/pds4/sp/v1/PDS4_SP_1L00_1311.zip">PDS4_SP_1L00_1311.zip</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -759,21 +686,22 @@ utilizes the existing Federal Geographic Data Committee (FGDC) Content Standard 
 
                 </p>
                 <ul>
-                    <li><b>Last Updated:</b> 06/08/2021</li>
+                    <li><b>Last Updated:</b> 11/15/2023</li>
                     <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
                     <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-survey">https://github.com/pds-data-dictionaries/ldd-survey</a></li>
                     <li><b>Data Dictionary Files:</b>
                         <ul>
-                            <li><a href="/pds4/survey/v1/PDS4_SURVEY_1G00_1010.xsd">PDS4_SURVEY_1G00_1010.xsd</a></li>
-                            <li><a href="/pds4/survey/v1/PDS4_SURVEY_1G00_1010.sch">PDS4_SURVEY_1G00_1010.sch</a></li>
-                            <li><a href="/pds4/survey/v1/PDS4_SURVEY_1G00_1010.xml">PDS4_SURVEY_1G00_1010.xml</a></li>
-                            <li><a href="/pds4/survey/v1/PDS4_SURVEY_1G00_1010.JSON">PDS4_SURVEY_1G00_1010.JSON</a></li>
-                            <li><a href="/pds4/survey/v1/PDS4_SURVEY_1G00_1010.zip">PDS4_SURVEY_1G00_1010.zip</a></li>
+                            <li><a href="/pds4/survey/v1/PDS4_SURVEY_1L00_1100.xsd">PDS4_SURVEY_1L00_1100.xsd</a></li>
+                            <li><a href="/pds4/survey/v1/PDS4_SURVEY_1L00_1100.sch">PDS4_SURVEY_1L00_1100.sch</a></li>
+                            <li><a href="/pds4/survey/v1/PDS4_SURVEY_1L00_1100.xml">PDS4_SURVEY_1L00_1100.xml</a></li>
+                            <li><a href="/pds4/survey/v1/PDS4_SURVEY_1L00_1100.JSON">PDS4_SURVEY_1L00_1100.JSON</a></li>
+                            <li><a href="/pds4/survey/v1/PDS4_SURVEY_1L00_1100.zip">PDS4_SURVEY_1L00_1100.zip</a></li>
                         </ul>
                     </li>
                 </ul>
                 <p><a class="toTop">Back to top</a></p>
             </div>
+
 		</div>
 		<hr class="minihr">
 		<div id="mission-dictionaries">
