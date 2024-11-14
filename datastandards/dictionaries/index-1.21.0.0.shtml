@@ -249,6 +249,20 @@ $(fixEmail);
 
                 </p>
                 <ul>
+                    <li><b>Last Updated:</b> 06/21/2024</li>
+                    <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
+                    <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-ctli">https://github.com/pds-data-dictionaries/ldd-ctli</a></li>
+                    <li><b>Data Dictionary Files:</b>
+                        <ul>
+                            <li><a href="/pds4/ctli/v2/PDS4_CTLI_1L00_2100.xsd">PDS4_CTLI_1L00_2100.xsd</a></li>
+                            <li><a href="/pds4/ctli/v2/PDS4_CTLI_1L00_2100.sch">PDS4_CTLI_1L00_2100.sch</a></li>
+                            <li><a href="/pds4/ctli/v2/PDS4_CTLI_1L00_2100.xml">PDS4_CTLI_1L00_2100.xml</a></li>
+                            <li><a href="/pds4/ctli/v2/PDS4_CTLI_1L00_2100.JSON">PDS4_CTLI_1L00_2100.JSON</a></li>
+                            <li><a href="/pds4/ctli/v2/PDS4_CTLI_1L00_2100.zip">PDS4_CTLI_1L00_2100.zip</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
                     <li><b>Last Updated:</b> 11/21/2023</li>
                     <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
                     <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-ctli">https://github.com/pds-data-dictionaries/ldd-ctli</a></li>
@@ -733,9 +747,9 @@ $(fixEmail);
 			<li><a href="https://nasa-pds.github.io/pds4-information-model/model-lddtool/install/index.html">Local Data Dictionary Tool Installation Guide</a></li><br>
             <li>Wiki pages with some helpful information on creating Local Dictionaries:
                 <ul>
-                    <li><a href="http://sbndev.astro.umd.edu/wiki/Installing_and_Configuring_LDDTool">Installing and Configuring LDDTool</a></li>
-                    <li><a href="http://sbndev.astro.umd.edu/wiki/Creating_the_Ingest_LDD_Dictionary_Input_File">Creating the Ingest LDD Dictionary Input File</a></li>
-                    <li><a href="http://sbndev.astro.umd.edu/wiki/Running_LDDTool_and_Verifying_the_Output">Running LDDTool and Verifying the Output</a></li>
+                    <li><a href="http://sbnwiki.astro.umd.edu/wiki/Installing_and_Configuring_LDDTool">Installing and Configuring LDDTool</a></li>
+                    <li><a href="http://sbnwiki.astro.umd.edu/wiki/Creating_the_Ingest_LDD_Dictionary_Input_File">Creating the Ingest LDD Dictionary Input File</a></li>
+                    <li><a href="http://sbnwiki.astro.umd.edu/wiki/Running_LDDTool_and_Verifying_the_Output">Running LDDTool and Verifying the Output</a></li>
                 </ul>
             </li><br />
             <li>Existing <a href="#discipline-dictionaries">Discipline Dictionaries</a> may provide some help in understanding how to data model</li><br />
