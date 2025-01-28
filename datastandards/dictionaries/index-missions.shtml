@@ -25,10 +25,13 @@ $(fixEmail);
 </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-33523145-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T8PNBVMXSM"></script>
 <script>
-{{ window.dataLayer = window.dataLayer || [];}}
-{{ function gtag(){dataLayer.push(arguments);}}}
-{{ gtag('js', new Date());}}gtag('config', 'UA-33523145-1');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-33523145-1');
+  gtag('config', 'G-T8PNBVMXSM');
 </script>
 
 	<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
@@ -201,7 +204,9 @@ $(fixEmail);
 				<li><a href="#juno">Juno</a></li>
 				<li><a href="#kplo">KPLO</a></li>
 				<li><a href="#ladee">LADEE</a></li>
+				<li><a href="#lcross">LCROSS</a></li>
 				<li><a href="#lro">LRO</a></li>
+				<li><a href="#lucy">Lucy</a></li>
 				<li><a href="#mgn">Magellan</a></li>
 				<li><a href="#mars2020">Mars 2020</a></li>
 				<li><a href="#mvn">MAVEN</a></li>
@@ -657,10 +662,38 @@ $(fixEmail);
 				</ul>
 				<a class="toTop">Back to top</a>
 			</div>
+			<div id="lcross">
+				<h4>LCROSS (lcross)</h4>
+				<p>The LCROSS mission dictionary contains classes and attributes specific to the LCROSS mission and its instruments.</br>
+				</p>
+				<ul>
+					<li><b>PDS4 Version:</b> 1.13.0.0</li>
+					<li><b>Posted:</b> 01/16/2025</li>
+					<ul>
+						<li><a href="/pds4/mission/lcross/v1/PDS4_LCROSS_1D00_1000.xsd">PDS4_LCROSS_1D00_1000.xsd</a></li>
+						<li><a href="/pds4/mission/lcross/v1/PDS4_LCROSS_1D00_1000.sch">PDS4_LCROSS_1D00_1000.sch</a></li>
+						<li><a href="/pds4/mission/lcross/v1/PDS4_LCROSS_1D00_1000.xml">PDS4_LCROSS_1D00_1000.xml</a></li>
+						<li><a href="/pds4/mission/lcross/v1/PDS4_LCROSS_1D00_1000.JSON">PDS4_LCROSS_1D00_1000.JSON</a></li>
+						<li><a href="/pds4/mission/lcross/v1/PDS4_LCROSS_1D00_1000.zip">PDS4_LCROSS_1D00_1000.zip</a></li>
+					</ul>
+				</ul>
+				<a class="toTop">Back to top</a>
+			</div>
 			<div id="lro">
 				<h4>LRO (lro)</h4>
 				<p>The LRO Mission Dictionary (lro) contains classes that describe aspects of the LRO mission and its instruments.</br>
 				</p>
+				<ul>
+					<li><b>PDS4 Version:</b> 1.19.0.0</li>
+					<li><b>Posted:</b> 01/16/2025</li>
+					<ul>
+						<li><a href="/pds4/mission/lro/v1/PDS4_LRO_1J00_1040.xsd">PDS4_LRO_1J00_1040.xsd</a></li>
+						<li><a href="/pds4/mission/lro/v1/PDS4_LRO_1J00_1040.sch">PDS4_LRO_1J00_1040.sch</a></li>
+						<li><a href="/pds4/mission/lro/v1/PDS4_LRO_1J00_1040.xml">PDS4_LRO_1J00_1040.xml</a></li>
+						<li><a href="/pds4/mission/lro/v1/PDS4_LRO_1J00_1040.JSON">PDS4_LRO_1J00_1040.JSON</a></li>
+						<li><a href="/pds4/mission/lro/v1/PDS4_LRO_1J00_1040.zip">PDS4_LRO_1J00_1040.zip</a></li>
+					</ul>
+				</ul>
 				<ul>
 					<li><b>PDS4 Version:</b> 1.19.0.0</li>
 					<li><b>Posted:</b> 08/17/2023</li>
@@ -791,11 +824,46 @@ $(fixEmail);
 				</ul>
 				<a class="toTop">Back to top</a>
 			</div>
+			<div id="lucy">
+				<h4>Lucy (lucy)</h4>
+				<p>The Lucy Mission Dictionary (lucy) describes and enumerates Lucy mission- and instrumentation-specific classes and attributes.</br>
+				</p>
+				<ul>
+					<li><b>PDS4 Version:</b> 1.20.0.0</li>
+					<li><b>Posted:</b> 12/23/2024</li>
+					<ul>
+						<li><a href="/pds4/mission/lucy/v1/PDS4_LUCY_1K00_1000.xsd">PDS4_LUCY_1K00_1000.xsd</a></li>
+						<li><a href="/pds4/mission/lucy/v1/PDS4_LUCY_1K00_1000.sch">PDS4_LUCY_1K00_1000.sch</a></li>
+						<li><a href="/pds4/mission/lucy/v1/PDS4_LUCY_1K00_1000.xml">PDS4_LUCY_1K00_1000.xml</a></li>
+						<li><a href="/pds4/mission/lucy/v1/PDS4_LUCY_1K00_1000.JSON">PDS4_LUCY_1K00_1000.JSON</a></li>
+						<li><a href="/pds4/mission/lucy/v1/PDS4_LUCY_1K00_1000.zip">PDS4_LUCY_1K00_1000.zip</a></li>
+					</ul>
+					<li><b>PDS4 Version:</b> 1.18.0.0</li>
+					<li><b>Posted:</b> 12/23/2024</li>
+					<ul>
+						<li><a href="/pds4/mission/lucy/v1/PDS4_LUCY_1I00_1000.xsd">PDS4_LUCY_1I00_1000.xsd</a></li>
+						<li><a href="/pds4/mission/lucy/v1/PDS4_LUCY_1I00_1000.sch">PDS4_LUCY_1I00_1000.sch</a></li>
+						<li><a href="/pds4/mission/lucy/v1/PDS4_LUCY_1I00_1000.xml">PDS4_LUCY_1I00_1000.xml</a></li>
+						<li><a href="/pds4/mission/lucy/v1/PDS4_LUCY_1I00_1000.JSON">PDS4_LUCY_1I00_1000.JSON</a></li>
+						<li><a href="/pds4/mission/lucy/v1/PDS4_LUCY_1I00_1000.zip">PDS4_LUCY_1I00_1000.zip</a></li>
+					</ul>
+				</ul>
+				<a class="toTop">Back to top</a>
+			</div>
 			<div id="mgn">
 				<h4>Magellan (mgn)</h4>
 				<p>The Magellan Mission Dictionary (mgn) contains classes, attributes and rules specific to the Magellan mission and its instruments.</br>
 				</p>
 				<ul>
+					<li><b>PDS4 Version:</b> 1.22.0.0</li>
+					<li><b>Posted:</b> 12/23/2024</li>
+					<ul>
+						<li><a href="/pds4/mission/mgn/v1/PDS4_MGN_1M00_1100.xsd">PDS4_MGN_1M00_1100.xsd</a></li>
+						<li><a href="/pds4/mission/mgn/v1/PDS4_MGN_1M00_1100.sch">PDS4_MGN_1M00_1100.sch</a></li>
+						<li><a href="/pds4/mission/mgn/v1/PDS4_MGN_1M00_1100.xml">PDS4_MGN_1M00_1100.xml</a></li>
+						<li><a href="/pds4/mission/mgn/v1/PDS4_MGN_1M00_1100.JSON">PDS4_MGN_1M00_1100.JSON</a></li>
+						<li><a href="/pds4/mission/mgn/v1/PDS4_MGN_1M00_1100.zip">PDS4_MGN_1M00_1100.zip</a></li>
+					</ul>
 					<li><b>PDS4 Version:</b> 1.20.0.0</li>
 					<li><b>Posted:</b> 10/11/2023</li>
 					<ul>

@@ -25,10 +25,13 @@ $(fixEmail);
 </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-33523145-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T8PNBVMXSM"></script>
 <script>
-{{ window.dataLayer = window.dataLayer || [];}}
-{{ function gtag(){dataLayer.push(arguments);}}}
-{{ gtag('js', new Date());}}gtag('config', 'UA-33523145-1');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-33523145-1');
+  gtag('config', 'G-T8PNBVMXSM');
 </script>
 
 	<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
@@ -317,6 +320,19 @@ $(fixEmail);
 
                 </p>
                 <ul>
+                    <li><b>Last Updated:</b> 11/21/2024</li>
+                    <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
+                    <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-geom">https://github.com/pds-data-dictionaries/ldd-geom</a></li>
+                    <li><b>Data Dictionary Files:</b>
+                        <ul>
+                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1J00_1980.xsd">PDS4_GEOM_1J00_1980.xsd</a></li>
+                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1J00_1980.sch">PDS4_GEOM_1J00_1980.sch</a></li>
+                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1J00_1980.xml">PDS4_GEOM_1J00_1980.xml</a></li>
+                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1J00_1980.JSON">PDS4_GEOM_1J00_1980.JSON</a></li>
+                            <li><a href="/pds4/geom/v1/PDS4_GEOM_1J00_1980.zip">PDS4_GEOM_1J00_1980.zip</a></li>
+                        </ul>
+                    </li>
+                    <br/>
                     <li><b>Last Updated:</b> 03/26/2024</li>
                     <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
                     <li><b>Github Repo:</b> <a href="https://github.com/pds-data-dictionaries/ldd-geom">https://github.com/pds-data-dictionaries/ldd-geom</a></li>
