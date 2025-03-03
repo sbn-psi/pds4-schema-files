@@ -196,7 +196,8 @@ $(fixEmail);
         <div id="discipline-dictionaries" class="lddList">
             <h3>Discipline Dictionaries</h3>
             <ul class="lddListToc">
-            				<li><a href="#cart">Cartography</a></li>
+                <li><a href="#ama">Atmospheres Modeling Annex</a></li>
+            	<li><a href="#cart">Cartography</a></li>
 				<li><a href="#ctli">Context Type List: Instrument</a></li>
 				<li><a href="#disp">Display</a></li>
 				<li><a href="#ebt">Earth-Based Telescope</a></li>
@@ -220,6 +221,28 @@ $(fixEmail);
 
             </ul>
 
+            <div id="ama">
+                <h4>Atmospheres Modeling Annex (ama)</h4>
+                <p>
+                    The Atmospheres Modeling Annex Dictionary contains classes, elements, attributes, and rules describing the modeling output generic variables.
+
+                </p>
+                <ul>
+                    <li><b>Last Updated:</b> 02/25/2025</li>
+                    <li><b>Issue Tracking:</b> <a href="https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues">https://github.com/pds-data-dictionaries/PDS4-LDD-Issue-Repo/issues</a></li>
+                    <li><b>Github Repo:</b> <a href="https://pds-data-dictionaries.github.io/ldd-ama/">https://pds-data-dictionaries.github.io/ldd-ama/</a></li>
+                    <li><b>Data Dictionary Files:</b>
+                        <ul>
+                            <li><a href="/pds4/ama/v1/PDS4_AMA_1N00_1000.xsd">PDS4_AMA_1N00_1000.xsd</a></li>
+                            <li><a href="/pds4/ama/v1/PDS4_AMA_1N00_1000.sch">PDS4_AMA_1N00_1000.sch</a></li>
+                            <li><a href="/pds4/ama/v1/PDS4_AMA_1N00_1000.xml">PDS4_AMA_1N00_1000.xml</a></li>
+                            <li><a href="/pds4/ama/v1/PDS4_AMA_1N00_1000.JSON">PDS4_AMA_1N00_1000.JSON</a></li>
+                            <li><a href="/pds4/ama/v1/PDS4_AMA_1N00_1000.zip">PDS4_AMA_1N00_1000.zip</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <p><a class="toTop">Back to top</a></p>
+            </div>
         
             <div id="cart">
                 <h4>Cartography (cart)</h4>
