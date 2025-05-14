@@ -7,5 +7,7 @@
     <rewriteURI uriStartString="http://pds.nasa.gov/pds4/" rewritePrefix="pds4/" />
     <rewriteURI uriStartString="https://pds.nasa.gov/pds4/" rewritePrefix="pds4/" />
     <rewriteURI uriStartString="https://pds.nasa.gov/datastandards/schema/released/" rewritePrefix="pds4/" />
+    <rewriteURI uriStartString="http://pds.jpl.nasa.gov/pds4/schema/released/" rewritePrefix="pds4/" />
+    
     <rewriteURI uriStartString="https://data.darts.isas.jaxa.jp/pub/pds4/" rewritePrefix="pds4/" />
 </catalog>
