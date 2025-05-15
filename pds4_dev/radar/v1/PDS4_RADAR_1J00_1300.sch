@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <!-- PDS4 Schematron for Name Space Id:radar  Version:1.3.0.0 - Wed May 14 18:11:00 UTC 2025 -->
+  <!-- PDS4 Schematron for Name Space Id:radar  Version:1.3.0.0 - Mon May 12 20:59:48 UTC 2025 -->
   <!-- Generated from the PDS4 Information Model Version 1.19.0.0 - System Build 13.0 -->
   <!-- *** This PDS4 schematron file is an operational deliverable. *** -->
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
@@ -45,6 +45,27 @@
       <sch:assert test=". = ('Doppler', 'Range', 'Range-Doppler', 'Total Power')">
         <title>radar:Groundbased_Radar/radar:observation_purpose/radar:observation_purpose</title>
         The attribute radar:Groundbased_Radar/radar:observation_purpose must be equal to one of the following values 'Doppler', 'Range', 'Range-Doppler', 'Total Power'.</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:rule context="radar:Pixel_Scale/radar:doppler_pixel_scale">
+      <sch:assert test="@unit = ('GHz', 'Hz', 'MHz', 'THz', 'kHz', 'mHz')">
+        <title>radar:Pixel_Scale/radar:doppler_pixel_scale/radar:doppler_pixel_scale</title>
+        The attribute @unit must be equal to one of the following values 'GHz', 'Hz', 'MHz', 'THz', 'kHz', 'mHz'.</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:rule context="radar:Pixel_Scale/radar:range_pixel_scale_distance">
+      <sch:assert test="@unit = ('AU', 'Angstrom', 'cm', 'km', 'm', 'micrometer', 'mm', 'nm')">
+        <title>radar:Pixel_Scale/radar:range_pixel_scale_distance/radar:range_pixel_scale_distance</title>
+        The attribute @unit must be equal to one of the following values 'AU', 'Angstrom', 'cm', 'km', 'm', 'micrometer', 'mm', 'nm'.</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:rule context="radar:Pixel_Scale/radar:range_pixel_scale_time">
+      <sch:assert test="@unit = ('day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 'ns', 's', 'yr')">
+        <title>radar:Pixel_Scale/radar:range_pixel_scale_time/radar:range_pixel_scale_time</title>
+        The attribute @unit must be equal to one of the following values 'day', 'hr', 'julian day', 'microseconds', 'min', 'ms', 'ns', 's', 'yr'.</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

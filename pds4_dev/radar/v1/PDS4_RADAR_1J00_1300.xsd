@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <!-- PDS4 XML/Schema for Name Space Id:radar  Version:1.3.0.0 - Wed May 14 18:11:00 UTC 2025 -->
+  <!-- PDS4 XML/Schema for Name Space Id:radar  Version:1.3.0.0 - Mon May 12 20:59:48 UTC 2025 -->
   <!-- Generated from the PDS4 Information Model Version 1.19.0.0 - System Build 13.0 -->
   <!-- *** This PDS4 product schema is an operational deliverable. *** -->
   <!--                                                                           -->
@@ -38,10 +38,25 @@ The Radar dictionary contains classes that support radar observations.
       <xs:element name="Quality" type="radar:Quality" minOccurs="0" maxOccurs="1"> </xs:element>
       <xs:element name="Target_Properties" type="radar:Target_Properties" minOccurs="0" maxOccurs="1"> </xs:element>
       <xs:element name="Sampling_Properties" type="radar:Sampling_Properties" minOccurs="0" maxOccurs="1"> </xs:element>
+      <xs:element name="Radar_Image_Properties" type="radar:Radar_Image_Properties" minOccurs="0" maxOccurs="1"> </xs:element>
     </xs:sequence>
     <!-- Begin assert statements for schematron - Enumerated Values -->
     <!-- <xs:assert test="radar:observation_purpose = ('Doppler', 'Range', 'Range-Doppler', 'Total Power')"/> -->
     <!-- End assert statements for schematron - Enumerated Values -->
+  </xs:complexType>
+
+  <xs:complexType name="Pixel_Scale">
+    <xs:annotation>
+      <xs:documentation>Attributes that describe the dimensions of a
+        pixel</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:choice minOccurs="0" maxOccurs="1">
+        <xs:element name="range_pixel_scale_time" type="radar:range_pixel_scale_time"> </xs:element>
+        <xs:element name="range_pixel_scale_distance" type="radar:range_pixel_scale_distance"> </xs:element>
+      </xs:choice>
+      <xs:element name="doppler_pixel_scale" type="radar:doppler_pixel_scale" minOccurs="0" maxOccurs="1"> </xs:element>
+    </xs:sequence>
   </xs:complexType>
 
   <xs:complexType name="Quality">
@@ -65,6 +80,16 @@ The Radar dictionary contains classes that support radar observations.
     </xs:annotation>
     <xs:sequence>
       <xs:element name="Groundbased_Radar" type="radar:Groundbased_Radar" minOccurs="0" maxOccurs="1"> </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="Radar_Image_Properties">
+    <xs:annotation>
+      <xs:documentation>Attributes and classes for radar
+        images</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="Pixel_Scale" type="radar:Pixel_Scale" minOccurs="1" maxOccurs="1"> </xs:element>
     </xs:sequence>
   </xs:complexType>
 
@@ -105,7 +130,7 @@ The Radar dictionary contains classes that support radar observations.
     <xs:sequence>
       <xs:element name="range_resolution_time" type="radar:range_resolution_time" minOccurs="0" maxOccurs="1"> </xs:element>
       <xs:element name="range_resolution_distance" type="radar:range_resolution_distance" minOccurs="0" maxOccurs="1"> </xs:element>
-      <xs:element name="transmitter_frequency" nillable="true" type="radar:transmitter_frequency" minOccurs="1" maxOccurs="1"> </xs:element>
+      <xs:element name="transmitter_frequency" type="radar:transmitter_frequency" minOccurs="0" maxOccurs="1"> </xs:element>
       <xs:element name="transmitter_power" type="radar:transmitter_power" minOccurs="1" maxOccurs="1"> </xs:element>
       <xs:choice minOccurs="0" maxOccurs="1">
         <xs:element name="pulse_repetition_frequency" type="radar:pulse_repetition_frequency"> </xs:element>
@@ -121,6 +146,26 @@ The Radar dictionary contains classes that support radar observations.
         common namespace.
       </xs:documentation>
     </xs:annotation>
+
+  <xs:simpleType name="doppler_pixel_scale_WO_Units">
+    <xs:restriction base="pds:ASCII_Real">
+     <xs:minInclusive value="0"/>
+     <xs:maxInclusive value="1.7976931348623157e308"/>
+	   </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="doppler_pixel_scale">
+    <xs:annotation>
+      <xs:documentation>The frequency interval from the edge of one
+        pixel to the next in the Doppler dimension of a radar
+        image.</xs:documentation>
+    </xs:annotation>
+    <xs:simpleContent>
+      <xs:extension base="radar:doppler_pixel_scale_WO_Units">
+        <xs:attribute name="unit" type="pds:Units_of_Frequency" use="required" />
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
 
   <xs:simpleType name="matched_snr_db">
     <xs:annotation>
@@ -253,6 +298,47 @@ The Radar dictionary contains classes that support radar observations.
     </xs:simpleContent>
   </xs:complexType>
 
+  <xs:simpleType name="range_pixel_scale_distance_WO_Units">
+    <xs:restriction base="pds:ASCII_Real">
+     <xs:minInclusive value="0"/>
+     <xs:maxInclusive value="1.7976931348623157e308"/>
+	   </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="range_pixel_scale_distance">
+    <xs:annotation>
+      <xs:documentation>The distance from one pixel to the next in the
+        range dimension of a radar image. This is commonly the same as
+        or a multiple of range_resolution_distance.</xs:documentation>
+    </xs:annotation>
+    <xs:simpleContent>
+      <xs:extension base="radar:range_pixel_scale_distance_WO_Units">
+        <xs:attribute name="unit" type="pds:Units_of_Length" use="required" />
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:simpleType name="range_pixel_scale_time_WO_Units">
+    <xs:restriction base="pds:ASCII_Real">
+     <xs:minInclusive value="0"/>
+     <xs:maxInclusive value="1.7976931348623157e308"/>
+	   </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="range_pixel_scale_time">
+    <xs:annotation>
+      <xs:documentation>The time interval from the edge of one pixel to
+        the next in the range dimension of a radar image. This is
+        commonly the same as or a multiple of
+        range_resolution_time.</xs:documentation>
+    </xs:annotation>
+    <xs:simpleContent>
+      <xs:extension base="radar:range_pixel_scale_time_WO_Units">
+        <xs:attribute name="unit" type="pds:Units_of_Time" use="required" />
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
   <xs:simpleType name="range_resolution_distance_WO_Units">
     <xs:restriction base="pds:ASCII_Real">
      <xs:minInclusive value="0"/>
@@ -361,13 +447,12 @@ The Radar dictionary contains classes that support radar observations.
 
   <xs:complexType name="transmitter_frequency">
     <xs:annotation>
-      <xs:documentation>Specifies the central transmitter
+      <xs:documentation>Specifies the transmitter
         frequency.</xs:documentation>
     </xs:annotation>
     <xs:simpleContent>
       <xs:extension base="radar:transmitter_frequency_WO_Units">
         <xs:attribute name="unit" type="pds:Units_of_Frequency" use="required" />
-        <xs:attribute name="nilReason" type="pds:nil_reason" use="optional" />
       </xs:extension>
     </xs:simpleContent>
   </xs:complexType>
