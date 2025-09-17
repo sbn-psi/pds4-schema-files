@@ -1,0 +1,12 @@
+<!DOCTYPE catalog
+   PUBLIC "-//OASIS/DTD Entity Resolution XML Catalog V1.0//EN"
+   "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+
+    <group xml:base="pds4_dev/">
+        <uri name="https://pds.nasa.gov/pds4/mission/galileo/v1/PDS4_GALILEO_1O00_1000.sch" uri="mission/galileo/v1/PDS4_GALILEO_1O00_1000.sch"/>
+        <uri name="https://pds.nasa.gov/pds4/mission/galileo/v1/PDS4_GALILEO_1O00_1000.xsd" uri="mission/galileo/v1/PDS4_GALILEO_1O00_1000.xsd"/>
+    </group>
+
+    <nextCatalog catalog="catalog_all.xml" />
+</catalog>
