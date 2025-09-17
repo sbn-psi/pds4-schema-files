@@ -4,6 +4,8 @@
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
 
     <group xml:base="pds4_dev/">
+        <uri name="https://pds.nasa.gov/pds4/mission/galileo/v1/PDS4_GALILEO_1N00_1000.sch" uri="mission/galileo/v1/PDS4_GALILEO_1N00_1000.sch"/>
+        <uri name="https://pds.nasa.gov/pds4/mission/galileo/v1/PDS4_GALILEO_1N00_1000.xsd" uri="mission/galileo/v1/PDS4_GALILEO_1N00_1000.xsd"/>
         <uri name="https://pds.nasa.gov/pds4/mission/galileo/v1/PDS4_GALILEO_1O00_1000.sch" uri="mission/galileo/v1/PDS4_GALILEO_1O00_1000.sch"/>
         <uri name="https://pds.nasa.gov/pds4/mission/galileo/v1/PDS4_GALILEO_1O00_1000.xsd" uri="mission/galileo/v1/PDS4_GALILEO_1O00_1000.xsd"/>
     </group>
